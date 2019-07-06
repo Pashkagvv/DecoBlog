@@ -2,7 +2,11 @@ extends ../layouts/base.pug
 
 //- TODO: include page-specific block templates
 include ../../blocks/top/header/header.pug
+    include ../../blocks/aboutme/aboutme.pug
+include ../../blocks/footer/footer.pug
 
     block page
         //- TODO: add code
         +header(data.top)
+        +aboutme(data.aboutme)
+        +footer(data.footer)
