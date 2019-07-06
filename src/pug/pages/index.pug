@@ -6,15 +6,16 @@ include ../../blocks/newslatter/newslatter.pug
 include ../../blocks/content/content.pug
 include ../../blocks/top/banner/banner.pug
 include ../../blocks/footer/footer.pug
-include ../../blocks/aboutme/aboutme.pug
+
 
 
 
 block page
     //- TODO: add code
-    +header(data.top)
-    +banner(data.top.banner)
+    .top
+        +header(data.top)
+        +banner(data.banner)
     +newslatter(data.newslatter)
     +content(data.content)
-    +aboutme(data.aboutme)
+
     +footer(data.footer)

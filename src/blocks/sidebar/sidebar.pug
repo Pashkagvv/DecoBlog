@@ -1,0 +1,30 @@
+//-
+    name: sidebar
+    description: Markup for the sidebar block
+    arguments:
+        - {object} props - block properties
+
+mixin sidebar(data = {})
+    .sidebar&attributes(attributes)
+        .sidebar__Cower
+            form.sidebar__form
+                input.sidebar__inputSearch(type="search" placeholder="search")
+            h2.sidebar__Title= data.Title
+            ul
+                each item in data.List
+                    li.sidebar__sListItem
+                        a.sidebar__ListLink(href="#")
+                            p.sidebar__ListTitle= item.title
+                            p.sidebar__ListPoint= item.point
+            img(src= data.Img)
+            h2.sidebar__Title= data.Title2
+            ul
+                each item in data.List2
+                    li.sidebar__ListItem
+                        a.sidebar__ListLink(href="#")
+                            img.sidebar__List2Img(src= item.img)
+                            .sidebar__List2itemCower
+                                p.sidebar__List2Title= item.title
+                                .sidebar__List2Footer
+                                    p.sidebar__List2Date= item.date
+                                    p.sidebar__List2Like= item.like

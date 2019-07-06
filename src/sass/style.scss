@@ -20,6 +20,7 @@
 @import "../blocks/top/banner/banner";
 @import "../blocks/footer/footer";
 @import "../blocks/aboutme/aboutme";
+@import "../blocks/sidebar/sidebar";
 
 
 // TODO: include other block styles
@@ -36,4 +37,8 @@
   //background: url("../img/HomePage.jpg");
   //width: 1638px;
   background: $color-body;
+}
+.top{
+  height: 345px;
+  background: $color-header-bg;
 }

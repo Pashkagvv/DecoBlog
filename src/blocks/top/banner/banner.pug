@@ -6,4 +6,18 @@
 
 mixin banner(data = {})
     .banner&attributes(attributes)
+        .container
+            .row
+                .col-12
+                    .banner__sliderCower
+                        .banner__slider
+                            each item in data
+                                .banner__sliderItem
+                                    .banner__slickContentCower
+                                        .banner__sliderTitle= item.title
+                                        .banner__sliderDescription!= item.description
+                                    img.banner__img(src= item.img)
 
+                        .my-dots
+                        img.prev-arrow(src="./img/Top.png", alt="Prev")
+                        img.next-arrow(src="./img/Down.png", alt="Next")

@@ -35,27 +35,7 @@
 function initBlock() {
     // TODO: add code here
 
-    $('.header__slider').slick({
-        infinite: true,
-        autoplay: true,
-        arrows: true,
-        dots: true,
-        vertical: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dotsClass: "my-dots",
-        nextArrow: $('.next-arrow'),
-        prevArrow: $('.prev-arrow'),
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    arrows: false,
-                    dots: false
-                }
-            },
-        ]
-    });
+
 
     return true;
 }

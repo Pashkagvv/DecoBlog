@@ -22,15 +22,3 @@ mixin header(data = {})
                                 a.header__social(href="#") <i class="fab fa-tumblr"></i>
                                 a.header__social(href="#") <i class="fab fa-facebook-f"></i>
                                 a.header__social(href="#") <i class="fas fa-search"></i>
-                .header__sliderCower
-                    .header__slider
-                        each item in data.banner
-                            .header__sliderItem
-                                .header__slickContentCower
-                                    .header__sliderTitle= item.title
-                                    .header__sliderDescription!= item.description
-                                img.header__img(src= item.img)
-
-                    .my-dots
-                    img.prev-arrow(src="./img/Top.png", alt="Prev")
-                    img.next-arrow(src="./img/Down.png", alt="Next")

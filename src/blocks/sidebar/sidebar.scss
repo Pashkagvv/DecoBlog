@@ -1,0 +1,78 @@
+/**
+ * Styles for the sidebar block.
+ */
+.sidebar {
+    // Selector styles
+    // TODO: add code
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+
+  &__Cower{
+    background: $color-white;
+    padding: 20px;
+  }
+
+
+
+  &__inputSearch{
+    width: 100%;
+  }
+
+
+
+  &__Title{
+    color: $color-h3;
+    font-family: $font-family-Monserat;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+  }
+
+  &__ListTitle, &__ListPoint{
+    display: inline-block;
+    color: $color-h3;
+    font-family: $font-family-Hind;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+  }
+  &__ListLink{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__ListItem{
+    padding-top: 15px;
+    border-top: 1px solid $color-link-border;
+  }
+  &__List2Img{
+    width: 80px;
+    height: 62px;
+  }
+  &__List2Footer{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__List2Like, &__List2Date{
+    display: inline-block;
+
+  }
+
+    // Bem modifiers
+    // TODO: add code
+}

@@ -4,8 +4,7 @@
 
 import LazyLoader from '../../../js/utils/lazy-loader';
 import content from '../../../blocks/content/content';
-
-import header from '../../../blocks/top/header/header';
+import banner from '../../../blocks/top/banner/banner';
 
 
 
@@ -88,8 +87,7 @@ function initBlock() {
 
     // TODO: initialize other blocks
     content.initBlock();
-
-    header.initBlock();
+    banner.initBlock();
 
     // Process the initial window size and scroll position
     handleWindowResize();

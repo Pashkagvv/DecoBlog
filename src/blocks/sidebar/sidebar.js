@@ -1,5 +1,5 @@
 /**
- * @file Implementation of the banner block
+ * @file Implementation of the sidebar block
  */
 
 // -------------------------- BEGIN MODULE VARIABLES --------------------------
@@ -29,33 +29,11 @@
 // --------------------------- BEGIN PUBLIC METHODS ---------------------------
 
 /**
- * Initialize the banner block.
+ * Initialize the sidebar block.
  * @return true if the block is present on the page, false otherwise
  */
 function initBlock() {
     // TODO: add code here
-
-    $('.banner__slider').slick({
-        infinite: true,
-        autoplay: true,
-        arrows: true,
-        dots: true,
-        vertical: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dotsClass: "my-dots",
-        nextArrow: $('.next-arrow'),
-        prevArrow: $('.prev-arrow'),
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    arrows: false,
-                    dots: false
-                }
-            },
-        ]
-    });
     return true;
 }
 

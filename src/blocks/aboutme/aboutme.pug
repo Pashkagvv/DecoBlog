@@ -6,9 +6,9 @@
 
 mixin aboutme(data = {})
     .aboutme&attributes(attributes)
-        .container
-            .row
-                .col-9
+
+
+
                     img.aboutme__img(src= data.img alt="bodybuilder")
                     .aboutme__infoCower
                         +icon('image')
@@ -18,26 +18,4 @@ mixin aboutme(data = {})
                             .aboutme__autor= data.autor
                             .aboutme__date= data.date
                         .aboutme__information= data.information
-                .col-3
-                    .aboutme__sidebarCower
-                        form.aboutme__form
-                            input.aboutme__inputSearch(type="search" placeholder="search")
-                        h2.aboutme__sidebarTitle= data.sidebarTitle
-                        ul
-                            each item in data.sidebarList
-                                li.aboutme__sidebarListItem
-                                    a.aboutme__sidebarListLink(href="#")
-                                        p.aboutme__sidebarListTitle= item.title
-                                        p.aboutme__sidebarListPoint= item.point
-                        img(src= data.sidebarImg)
-                        h2.aboutme__sidebarTitle= data.sidebarTitle2
-                        ul
-                            each item in data.sidebarList2
-                                li.aboutme__sidebarListItem
-                                    a.aboutme__sidebarListLink(href="#")
-                                        img.aboutme__sidebarList2Img(src= item.img)
-                                        .aboutme__sidebarList2itemCower
-                                            p.aboutme__sidebarList2Title= item.title
-                                            .aboutme__sidebarList2Footer
-                                                p.aboutme__sidebarList2Date= item.date
-                                                p.aboutme__sidebarList2Like= item.like
+

@@ -14,8 +14,141 @@
     // Nested selectors
     // TODO: add code
 
+  .next-arrow {
+    position: absolute;
+    top: 60%;
+    right: 20px;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .prev-arrow {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .my-dots {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .my-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 0px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .my-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+  }
+
+  .my-dots li button:hover,
+  .my-dots li button:focus {
+    outline: none;
+  }
+
+  .my-dots li button:hover:before,
+  .my-dots li button:focus:before {
+    opacity: 1;
+  }
+
+  .my-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    content: " ";
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    opacity: .25;
+    color: $color-white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  }
+
+  .my-dots li.slick-active button:before {
+    opacity: .75;
+    color: $color-white;
+  }
+
+
     // BEM elements
     // TODO: add code
+
+  &__sliderItem {
+    position: relative;
+  }
+
+  &__slickContentCower {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+  }
+
+  &__sliderTitle {
+    color: $color-white;
+    font-family: $font-family-Hind;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__sliderDescription {
+    text-shadow: 1px 1.7px 0 $color-slider-description;
+    color: $color-white;
+    font-family: $font-family-Hind;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+
+  &__slider {
+    width: 100%;
+
+  }
+
+  &__sliderCower {
+    position: relative;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
 
     // Bem modifiers
     // TODO: add code
