@@ -1,0 +1,69 @@
+/**
+ * Styles for the footer block.
+ */
+.footer {
+  background: $color-header-bg;
+  padding-top: 15px;
+  // Selector styles
+  // TODO: add code
+
+  // @media queries
+  // TODO: add code
+
+  // Pseudo-classes and pseudo-elements
+  // TODO: add code
+
+  // Nested selectors
+  // TODO: add code
+
+  // BEM elements
+  // TODO: add code
+  &__imgGalery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  &__galeryItem{
+    margin: 0.5px;
+    width: 100px;
+    height: 100px;
+  }
+  &__title {
+    color: $color-background1;
+    font-family: $font-family-Monserat;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__description2, &__description {
+    color: $color-body;
+    font-family: $font-family-Hind;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  &__subtitle {
+    color: $color-body;
+    font-size: 14px;
+    font-family: $font-family-Hind;
+    font-weight: 300;
+  }
+
+  &__autor {
+    color: $color-white;
+    font-family: $font-family-OpenSans;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  &__comment {
+    color: $color-white;
+    font-family: $font-family-Hind;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  // Bem modifiers
+  // TODO: add code
+}

@@ -1,0 +1,218 @@
+{
+  "top": {
+    "header": {
+      "title": "blog"
+    },
+    "banner": [
+      {
+        "title": "Latest News",
+        "description": "BodyBuilding best</br> for you health",
+        "img": "../img/BBMen.jpg"
+      },
+      {
+        "title": "Latest News",
+        "description": "BodyBuilding best</br> for you health",
+        "img": "../img/BBMen.jpg"
+      },
+      {
+        "title": "Latest News",
+        "description": "BodyBuilding best</br> for you health",
+        "img": "../img/BBMen.jpg"
+      }
+    ]
+  },
+  "newslatter": {
+    "title": "Signup to Newsletter",
+    "button": "Subscribe Now"
+  },
+  "content": [
+    {
+      "type": "textsocial",
+      "subtitle": "Travelling",
+      "title": "Travel besT Adventure",
+      "date": "January 25, 2016",
+      "description": "Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.",
+      "links": "Read More"
+    },
+    {
+      "type": "img",
+      "subtitle": "Travelling",
+      "img": "../img/sth1.jpg",
+      "title": "Standard Image Post",
+      "date": "January 25, 2016",
+      "links": "Read More"
+    },
+    {
+      "type": "blockqoutes",
+      "description": "As per Lorm ipsum dolor sitamet, \nconsectetur adipisicing elits, sed do Now eiusmod tempor havei ut labores et dolore magna aliqusa. Ut wenim ad minim veniam, quis \nits a snostrud now is the ullamco \n aliquip ex ea commodo .",
+      "autor": "Nathalia Alexy"
+    },
+    {
+      "type": "video",
+      "subtitle": "Designer",
+      "title": "Video Image Post Style",
+      "date": "January 25, 2016",
+      "description": "A CONAN staffer is learning the rules of the in  road, with a little help from Look out, fellow drivers!"
+    },
+    {
+      "type": "textsocial",
+      "subtitle": "Fashion",
+      "title": "Simple post style ",
+      "date": "January 02, 2016",
+      "description": "Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor choice is the have great work.",
+      "links": "Read More"
+    },
+    {
+      "type": "imgnotext",
+      "img": "../img/sport.jpg"
+    },
+    {
+      "type": "img",
+      "subtitle": "Adventures",
+      "img": "../img/The-Zen-of-Kayaking-I-photograph-the-fjords-of-Norway-from-the-kayak-seat11__880.jpg",
+      "title": "awesome Gallery Post",
+      "date": "January 19, 2016",
+      "links": "Read More"
+    },
+    {
+      "type": "link",
+      "link": "http://www.abcdomainname.com/<br>screen/discovery"
+    },
+    {
+      "type": "grid",
+      "img1": "../img/_ICH0724.jpg",
+      "img2": "../img/2.jpg",
+      "img3": "../img/3.jpg",
+      "img4": "../img/4.jpg",
+      "img5": "../img/5.jpg",
+      "img6": "../img/6.jpg",
+      "img7": "../img/7.jpg",
+      "img8": "../img/8.jpg"
+    },
+    {
+      "type": "imgnotext",
+      "img": "../img/Nimai-Delgado.08.jpg"
+    },
+    {
+      "type": "textsocial",
+      "subtitle": "Lifestyle",
+      "title": "without image post ",
+      "date": "January 07, 2016",
+      "description": "Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work",
+      "links": "Read More"
+    },
+    {
+      "type": "audio",
+      "subtitle": "Audio Music ",
+      "title": "Best Audio Player Post",
+      "date": "December 29, 2015",
+      "img": "../img/ellipse.png"
+    },
+    {
+      "type": "text",
+      "subtitle": "Travelling",
+      "title": "Travel besT Adventure",
+      "date": "January 25, 2016",
+      "description": "Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo tehampor incididunt uts laboasre etsa iusmod tehampor incididunt uts havlaboasre et dolhvaliqua. Ut enim  vem,  choice is the have great work.",
+      "links": "Read More"
+    }
+  ],
+  "footer": [
+    {
+      "title": "About Blog",
+      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
+      "img": "../img/NathaliyaJhone.jpg"
+    },
+    {
+      "title": "latest tweets",
+      "subtitle": "  @Twitter@magicalrebekah",
+      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
+      "description2": "Developer Advocate hav a great work this knows the very well is about things ."
+    },
+    {
+      "title": "Follow me instagram",
+      "slide1": "../img/Instagram_icon.png",
+      "slide2": "../img/Facebook.png",
+      "slide5": "../img/twitter.png",
+      "slide4": "../img/pinterest-logo.png",
+      "slide3": "../img/googleplus.png",
+      "slide6": "../img/YouTube.png"
+    },
+    {
+      "title": "latest comment",
+      "autorAlex": "From Alex : ",
+      "commentAlex": "Developer Advocate @heyval isaiyou know the very well is talking about things .",
+      "autorJohn": "From Jhon Doe :",
+      "commentJohn": "Developer Advocate @heyval isaiyou know the very well is talking about things ."
+    }
+  ],
+  "aboutme": {
+    "img": "../img/bodybuilder1.png",
+    "title": "About Me",
+    "subtitle": "Travelling",
+    "autor": "Dike AcAlister",
+    "date": "January 16,2016",
+    "information": "This is Photoshop's version now we’s of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi eiilit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsans ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti  have a great is the best sociosqu ad litora torquent per conubia nostra.\n\nExercitation photo booths stumptowns totes bag Banksy, elit small batch \nbit kale chips proident chillwave have a great work deep haves laborum.\n\nProins gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitgitis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec terzllus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti Duis aute irure dolor in reprehenderit in voluptate velit. Qui officia deserunt mollit anim id est labosasirum. Corrupti quosalores et quas molestias excepturi sint occaecati. Facere possimus, omnis voluptas assumenda have esOmnis dolor repellendus. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis.Et harum quidem the odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.sociosqu ad litora torquent per conubia nostra.\n\nWhat a crowded bazaar! There were large crowds of people at the shops. There were motor cars, rickshaws, scooters and taxies. The has buses, too, were plying up and own the bazaar. We kept to the foot-path. Soon we were at the Fountain. There we is th saw the Gurdwara Sis Ganj with its golden dome. A large number of devotees were going in or coming out.\n\nWe moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.",
+    "sidebarTitle": "catagories",
+    "sidebarTitle2": "latest post",
+    "sidebarList": [
+      {
+        "title": "lifestyle",
+        "point": "98"
+      },
+      {
+        "title": "audio",
+        "point": "102"
+      },
+      {
+        "title": "gallery",
+        "point": "83"
+      },
+      {
+        "title": "image",
+        "point": "04"
+      },
+      {
+        "title": "standert",
+        "point": "109"
+      },
+      {
+        "title": "statys",
+        "point": "50"
+      },
+      {
+        "title": "video",
+        "point": "102"
+      }
+    ],
+    "sidebarImg": "../img/Layer74.jpg",
+    "sidebarList2": [
+      {
+        "img": "../img/visual.jpg",
+        "title": "jurney towards a lifestyle",
+        "date": "Jan. 16 2015",
+        "like": "Like 255"
+      },
+      {
+        "img": "../img/product-250x250.jpeg",
+        "title": "Fashionable shoes for men",
+        "date": "Jan. 18 2015",
+        "like": "Like 26"
+      },
+      {
+        "img": "../img/it-was-really-awesome.jpg",
+        "title": "really awesome’s  Adventure",
+        "date": "Jan. 23 2015",
+        "like": "Like 23"
+      },
+      {
+        "img": "../img/sizedno1IMG_2082.jpg",
+        "title": "Man Hunting in jungle",
+        "date": "Jan. 16 2015",
+        "like": "Like 29"
+      }
+      ]
+  }
+}
+    
+

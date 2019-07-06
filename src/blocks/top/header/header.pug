@@ -1,0 +1,36 @@
+//-
+    name: header
+    description: Markup for the header block
+    arguments:
+        - {object} props - block properties
+
+mixin header(data = {})
+    .header&attributes(attributes)
+        .container-fluid
+            .container
+                .row
+                    .col-1
+                        img.header__menu(src="./img/MenuIcon.png")
+                    .col-8
+                        .header__logoWrapper
+                            img.header__logo(src="./img/Deco.png")
+                            p.header__title= data.header.title
+                    .col-3
+                     .header__list
+                                a.header__social(href="#") <i class="fas fa-rss"></i>
+                                a.header__social(href="#") <i class="fab fa-twitter"></i>
+                                a.header__social(href="#") <i class="fab fa-tumblr"></i>
+                                a.header__social(href="#") <i class="fab fa-facebook-f"></i>
+                                a.header__social(href="#") <i class="fas fa-search"></i>
+                .header__sliderCower
+                    .header__slider
+                        each item in data.banner
+                            .header__sliderItem
+                                .header__slickContentCower
+                                    .header__sliderTitle= item.title
+                                    .header__sliderDescription!= item.description
+                                img.header__img(src= item.img)
+
+                    .my-dots
+                    img.prev-arrow(src="./img/Top.png", alt="Prev")
+                    img.next-arrow(src="./img/Down.png", alt="Next")

@@ -1,0 +1,18 @@
+//-
+    name: newslatter
+    description: Markup for the newslatter block
+    arguments:
+        - {object} props - block properties
+
+mixin newslatter(data = {})
+    .newslatter&attributes(attributes)
+        .container
+            .newslatter__wrapper
+                .row
+                    .col-2
+                        h3.newslatter__title= data.title
+                    .col-10
+                        form.newslatter__form
+                            input.newslatter__inputName(type="text" placeholder="Your Name")
+                            input.newslatter__inputEmail(type="email" placeholder="Your Email Address")
+                            button.newslatter__button(type="submit")= data.button

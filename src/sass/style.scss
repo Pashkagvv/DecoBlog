@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "base";
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "normalize";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+
+
+
+// TODO: include third-party styles
+
+@import "../blocks/common/page/page.scss";
+@import "../blocks/top/header/header";
+@import "../blocks/newslatter/newslatter";
+@import "../blocks/content/content";
+@import "../blocks/top/banner/banner";
+@import "../blocks/footer/footer";
+@import "../blocks/aboutme/aboutme";
+
+
+// TODO: include other block styles
+.container {
+  width: 100%;
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0;
+}
+.row{
+  margin: 0;
+}
+.page{
+  //background: url("../img/HomePage.jpg");
+  //width: 1638px;
+  background: $color-body;
+}

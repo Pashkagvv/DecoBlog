@@ -1,0 +1,142 @@
+/**
+ * Styles for the aboutme block.
+ */
+.aboutme {
+    // Selector styles
+    // TODO: add code
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+  .icon {
+    fill: $color-white;
+    display: block;
+    background: $color-h3;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid $color-h3;
+    z-index: 999;
+    position: relative;
+  }
+    // BEM elements
+    // TODO: add code
+  &__sidebarCower{
+    background: $color-white;
+    padding: 20px;
+  }
+  &__img{
+    width: 100%;
+  }
+  &__infoCower{
+    display: flex;
+align-items: center;
+    flex-direction: column;
+  }
+  &__subtitle{
+    text-align: center;
+    color: #999;
+    font-family: $font-family-Hind;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &__title{
+    text-align: center;
+    color: #212121;
+    font-family:$font-family-Monserat;
+    font-size: 28px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+  }
+  &__information{
+    text-align: center;
+    font-family: $font-family-Monserat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: $color-description;
+
+  }
+  &__autorCower{
+    display: flex;
+    flex-direction: row;
+
+  }
+  &__autor{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    margin: 10px;
+  }
+
+  &__inputSearch{
+    width: 100%;
+  }
+
+  &__date{
+    display:inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    margin: 10px;
+  }
+
+  &__sidebarTitle{
+    color: $color-h3;
+    font-family: $font-family-Monserat;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+  }
+
+  &__sidebarListTitle, &__sidebarListPoint{
+    display: inline-block;
+    color: $color-h3;
+    font-family: $font-family-Hind;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+  }
+  &__sidebarListLink{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__sidebarListItem{
+    padding-top: 15px;
+    border-top: 1px solid $color-link-border;
+  }
+  &__sidebarList2Img{
+    width: 80px;
+    height: 62px;
+  }
+  &__sidebarList2Footer{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__sidebarList2Like, &__sidebarList2Date{
+    display: inline-block;
+
+  }
+    // Bem modifiers
+    // TODO: add code
+}

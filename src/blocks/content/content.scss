@@ -1,0 +1,279 @@
+/**
+ * Styles for the content block.
+ */
+.content {
+  // Selector styles
+  // TODO: add code
+  padding-top: 69px;
+  padding-bottom: 30px;
+
+  // @media queries
+  // TODO: add code
+
+  // Pseudo-classes and pseudo-elements
+  // TODO: add code
+
+  // Nested selectors
+  // TODO: add code
+  #player {
+    width: 100%;
+  }
+
+  // BEM elements
+  // TODO: add code
+  &__textsocial {
+    position: relative;
+    border: 1px solid $color-input-border;
+    box-shadow: 0 0 0 $color-box-shadow;
+    background: $color-white;
+  }
+
+  .icon {
+    fill: $color-white;
+    display: block;
+    background: $color-h3;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid $color-h3;
+    z-index: 999;
+position: relative;
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+  }
+
+  &__title {
+    text-align: center;
+    color: $color-h3;
+    font-family: $font-family-Monserat;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.038em;
+    margin-bottom: 7px;
+  }
+
+  &__date {
+    text-align: center;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  &__description {
+    text-align: center;
+    color: $color-description;
+    font-family: Hind;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 16px 18px 0 20px;
+    line-height: 1.9;
+    letter-spacing: 0.1em;
+  }
+
+  &__links {
+    text-align: center;
+    display: block;
+    width: 128px;
+    margin: 0 auto;
+    color: $color-h3;
+    text-decoration: none;
+    border-right: 1px solid $color-link-border;
+    border-left: 1px solid $color-link-border;
+    font-family: $font-family-Hind;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    margin-bottom: 45px;
+    margin-top: 34px
+  }
+
+  &__linkContent {
+    color: $color-white;
+
+
+    font-family: $font-family-Hind;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    text-decoration: underline;
+  }
+
+
+  &__post1-footer {
+    justify-content: space-between;
+    border-top: 1px solid $color-input-border;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    display: flex;
+  }
+
+  &__comment {
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    i {
+      margin-left: 26px;
+      color: $color-h3;
+      font-size: 18px;
+    }
+  }
+
+  &__socialWrapper {
+    margin-right: 22px;
+  }
+
+  &__socialLinks {
+    color: $color-description;
+    font-size: 14px;
+    margin: 0 7px;
+  }
+
+
+  &__iconWhite {
+
+    i {
+      display: block;
+      background: $color-white;
+      margin: 0 auto;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 35px;
+      padding-top: 9px;
+      padding-left: 11px;
+      color: $color-header-bg;
+      box-shadow: 0.5px 0.9px 3px $color-icon-shadow;
+    }
+  }
+
+  &__descriptionWhite {
+    color: $color-white;
+    text-align: center;
+    font-family: $font-family-Hind;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.16em;
+  }
+
+  &__autor {
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 26px;
+    letter-spacing: 0.1em;
+  }
+
+  &__iconWhite1 {
+    display: block;
+    background: $color-white;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    padding-top: 9px;
+    padding-left: 11px;
+    color: $color-header-bg;
+    box-shadow: 0.5px 0.9px 3px $color-icon-shadow;
+  }
+
+  &__videoArea {
+    height: 256px;
+  }
+
+  &__link {
+    height: 177px;
+    background: $color-header-bg;
+    text-align: center;
+  }
+
+  .grid-item {
+    //padding: 0;
+    margin: 15px 0;
+    width: 100%;
+
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__imgnotext {
+    height: 513px;
+  }
+
+  &__imgCower {
+    background: $color-white;
+  }
+
+  &__text {
+    background: url("../img/Layer43.jpg");
+
+    padding-top: 19px;
+    padding-bottom: 1px;
+    border: 1px solid $color-input-border;
+    box-shadow: 0 0 0 $color-box-shadow;
+  }
+
+  &__greedCower {
+    //background: $color-header-bg;
+    height: 340px;
+    position: relative;
+
+  }
+
+  &__audio {
+    background: $color-white;
+    height: 454px;
+  }
+
+  &__video {
+    background: $color-white;
+  }
+
+  &__blockqoutes {
+    background: $color-header-bg;
+  }
+
+  &__windowSlider{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+  }
+  &__slickImg{
+    height: 100%;
+   padding: 3px;
+
+  }
+
+  // Bem modifiers
+  // TODO: add code
+}

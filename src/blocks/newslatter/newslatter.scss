@@ -1,0 +1,84 @@
+/**
+ * Styles for the newslatter block.
+ */
+.newslatter {
+  // Selector styles
+  // TODO: add code
+  padding-top: 312px;
+  padding-bottom: 23px;
+
+  // @media queries
+  // TODO: add code
+
+  // Pseudo-classes and pseudo-elements
+  // TODO: add code
+  &__inputName::placeholder, &__inputEmail::placeholder {
+    padding-left: 30px;
+    color: $color-placeholder;
+    font-family: $font-family-Monserat;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  //&__inputEmail::placeholder {
+  //  padding-left: 30px;
+  //}
+
+  // Nested selectors
+  // TODO: add code
+
+  // BEM elements
+  // TODO: add code
+  &__wrapper{
+    background: $color-background1;
+  }
+  &__title {
+    color: $color-h3;
+    font-family: $font-family-Monserat;
+    margin-left: 29px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+  }
+
+  &__form {
+    padding-top: 4px;
+  }
+
+  &__inputName {
+    width: 449px;
+    height: 52px;
+    margin-right: 13px;
+    border: 1px solid $color-input-border;
+    border-radius: 0;
+  }
+
+  &__inputEmail {
+    width: 449px;
+    height: 52px;
+    margin-right: 13px;
+    margin-left: 12px;
+    border: 1px solid $color-input-border;
+    border-radius: 0;
+
+  }
+
+  &__button {
+    color: $color-white;
+    font-family: $font-family-Monserat;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    padding: 17px 82px 17px 82px;
+    margin-left: 13px;
+    background: $color-h3;
+  }
+
+  // Bem modifiers
+  // TODO: add code
+}

@@ -1,0 +1,27 @@
+include ../../blocks/common/icon/icon.pug
+//- TODO: include common block templates
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+
+        if data.pageTitle
+            title #{data.pageTitle} | #{data.siteTitle}
+        else
+            title #{data.siteTitle} &#8211; #{data.siteTagline}
+
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous")
+        link(href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Montserrat:100,100i,200,200i,300," +
+        "300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i," +
+        "800,800i&display=swap&subset=cyrillic,cyrillic-ext,devanagari,latin-ext" rel="stylesheet")
+    body.page
+        block page
+
+        block scripts
+            script(src="js/vendor.js")
+            script(src="js/main.js")
