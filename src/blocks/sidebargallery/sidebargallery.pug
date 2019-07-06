@@ -1,0 +1,9 @@
+//-
+    name: sidebargallery
+    description: Markup for the sidebargallery block
+    arguments:
+        - {object} props - block properties
+
+mixin sidebargallery(data = {})
+    .sidebargallery&attributes(attributes)
+            img.sidebargallery__img(src= data.img alt="img")

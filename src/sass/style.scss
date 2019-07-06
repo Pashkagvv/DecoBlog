@@ -21,11 +21,14 @@
 @import "../blocks/footer/footer";
 @import "../blocks/aboutme/aboutme";
 @import "../blocks/sidebar/sidebar";
+@import "../blocks/betheone/betheone";
+@import "../blocks/allpost/allpost";
+@import "../blocks/sidebargallery/sidebargallery";
 
 
 // TODO: include other block styles
 .container {
-  width: 100%;
+
   max-width: 1560px;
   margin: 0 auto;
   padding: 0;
@@ -41,4 +44,9 @@
 .top{
   height: 345px;
   background: $color-header-bg;
+}
+
+.blogs{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }

@@ -7,8 +7,6 @@
 mixin sidebar(data = {})
     .sidebar&attributes(attributes)
         .sidebar__Cower
-            form.sidebar__form
-                input.sidebar__inputSearch(type="search" placeholder="search")
             h2.sidebar__Title= data.Title
             ul
                 each item in data.List

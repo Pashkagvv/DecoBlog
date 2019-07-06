@@ -1,0 +1,15 @@
+//-
+    name: allpost
+    description: Markup for the allpost block
+    arguments:
+        - {object} props - block properties
+
+mixin allpost(data = {})
+    .allpost&attributes(attributes)
+        .allpost__wrapper
+            img.allpost__img(src= data.img)
+            .allpost__contentCower
+                .allpost__topCower
+                    p.allpost__autor= data.autor
+                    a.allpost__link(href="#")= data.link
+                p.allpost__post= data.post

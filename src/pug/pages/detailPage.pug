@@ -1,13 +1,13 @@
-extends ../layouts/inner.pug
+extends ../layouts/datail.pug
 
 //- TODO: include page-specific block templates
 include ../../blocks/top/header/header.pug
-include ../../blocks/top/banner/banner.pug
-include ../../blocks/aboutme/aboutme.pug
+include ../../blocks/sidebargallery/sidebargallery.pug
 include ../../blocks/sidebar/sidebar.pug
 include ../../blocks/footer/footer.pug
-include ../../blocks/serchform/serchform
-
+include ../../blocks/serchform/serchform.pug
+include ../../blocks/betheone/betheone.pug
+include ../../blocks/allpost/allpost.pug
 
 block page
     //- TODO: add code
@@ -17,8 +17,10 @@ block page
         .container
             .row
                 .col-9
-                    +aboutme(data.aboutme)
+                    +betheone(data.betheone)
+                    +allpost(data.allpost)
                 .col-3
                     +serchform(data.serchform)
+                    +sidebargallery(data.sidebargallery)
                     +sidebar(data.sidebar)
     +footer(data.footer)

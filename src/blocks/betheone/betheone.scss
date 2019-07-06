@@ -1,0 +1,177 @@
+/**
+ * Styles for the betheone block.
+ */
+.betheone {
+    // Selector styles
+    // TODO: add code
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+  &__arrowLeftLink:hover, &__arrowRightLink:hover{
+    background: $color-arrow-button-bg;
+    text-decoration: none;
+    color: $color-white;
+  }
+
+    // Nested selectors
+    // TODO: add code
+
+  .icon {
+    fill: $color-white;
+    display: block;
+    background: $color-h3;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid $color-h3;
+    z-index: 999;
+    position: relative;
+  }
+
+
+    // BEM elements
+    // TODO: add code
+
+
+  &__img{
+    width: 100%;
+  }
+  &__infoCower{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: $color-white;
+    border: 1px solid $color-input-border;
+    box-shadow: 0 0 0 $color-box-shadow;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+  }
+  &__autorCower{
+    display: flex;
+    flex-direction: row;
+
+  }
+  &__autor{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    margin: 10px;
+  }
+  &__date{
+    display:inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    margin: 10px;
+  }
+  &__subtitle{
+    text-align: center;
+    color: #999;
+    font-family: $font-family-Hind;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &__title{
+    text-align: center;
+    color: #212121;
+    font-family:$font-family-Monserat;
+    font-size: 28px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+  }
+  &__information{
+    text-align: center;
+    font-family: $font-family-Monserat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: $color-description;
+
+  }
+
+  &__footerComment, &__footerLike{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+  }
+
+
+  &__arrowRight, &__arrowLeft{
+    transform: rotate(90deg);
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  &__arrowLeftLink, &__arrowRightLink{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: $color-black;
+    margin: 10px;
+    color: $color-white;
+    font-family: $font-family-Hind;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+
+
+
+  }
+
+  &__footerCommentCower, &__footerAverageCower, &__socialCower{
+    display: block;
+  }
+  &__arrowWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__socialLinks{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: $color-description;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &__footerLike{
+    margin-left: 20px;
+  }
+
+  &__footer{
+    display: flex;
+    border-top: 1px solid $color-link-border;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 20px 40px;
+    background: $color-white;
+  }
+
+
+
+  &__information{
+    margin-bottom: 30px;
+  }
+    // Bem modifiers
+    // TODO: add code
+}

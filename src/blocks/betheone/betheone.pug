@@ -1,0 +1,36 @@
+//-
+    name: betheone
+    description: Markup for the betheone block
+    arguments:
+        - {object} props - block properties
+
+mixin betheone(data = {})
+    .betheone&attributes(attributes)
+            img.betheone__img(src= data.img alt="dontstopmeno")
+            .betheone__infoCower
+                +icon('image')
+                p.betheone__subtitle= data.subtitle
+                h1.betheone__title= data.title
+                .betheone__autorCower
+                    p.betheone__autor= data.autor
+                    p.betheone__date= data.date
+                p.betheone__information= data.information
+                p.betheone__subtitle= data.note
+            .betheone__footer
+                .betheone__footerCommentCower
+                    a.betheone__footerComment(href="#") <i class="far fa-comments"></i> 06 Comment
+                    a.betheone__footerLike(href="#") <i class="far fa-heart"></i> Like 25
+                .betheone__footerAverageCower
+                .betheone__socialCower
+                    a.betheone__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
+                    a.betheone__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
+                    a.betheone__socialLinks(href="#") <i class="fab fa-twitter"></i>
+                    a.betheone__socialLinks(href="#") <i class="fab fa-pinterest"></i>
+            .betheone__arrowWrapper
+                a.betheone__arrowLeftLink(href="#")
+                    img.betheone__arrowLeft(src="./img/Down.png")
+                    span Previous post
+
+                a.betheone__arrowRightLink(href="#")
+                    span Next post
+                    img.betheone__arrowRight(src="./img/Top.png")

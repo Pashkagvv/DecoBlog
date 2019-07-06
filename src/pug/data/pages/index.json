@@ -94,36 +94,8 @@
       "description": "Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo tehampor incididunt uts laboasre etsa iusmod tehampor incididunt uts havlaboasre et dolhvaliqua. Ut enim  vem,  choice is the have great work.",
       "links": "Read More"
     }
-  ],
-  "footer": [
-    {
-      "title": "About Blog",
-      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
-      "img": "../img/NathaliyaJhone.jpg"
-    },
-    {
-      "title": "latest tweets",
-      "subtitle": "  @Twitter@magicalrebekah",
-      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
-      "description2": "Developer Advocate hav a great work this knows the very well is about things ."
-    },
-    {
-      "title": "Follow me instagram",
-      "slide1": "../img/Instagram_icon.png",
-      "slide2": "../img/Facebook.png",
-      "slide5": "../img/twitter.png",
-      "slide4": "../img/pinterest-logo.png",
-      "slide3": "../img/googleplus.png",
-      "slide6": "../img/YouTube.png"
-    },
-    {
-      "title": "latest comment",
-      "autorAlex": "From Alex : ",
-      "commentAlex": "Developer Advocate @heyval isaiyou know the very well is talking about things .",
-      "autorJohn": "From Jhon Doe :",
-      "commentJohn": "Developer Advocate @heyval isaiyou know the very well is talking about things ."
-    }
   ]
+
 
 }
     

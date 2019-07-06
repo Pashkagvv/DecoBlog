@@ -1,95 +1,142 @@
 {
-    "siteTitle": "Site Title",
-    "siteTagline": "Site Tagline",
-    "top": {
-        "header": {
-            "title": "blog"
-        }
-    },
-    "banner": [
-        {
-            "title": "Latest News",
-            "description": "BodyBuilding best</br> for you health",
-            "img": "./img/BBMen.jpg"
-        },
-        {
-            "title": "Latest News",
-            "description": "BodyBuilding best</br> for you health",
-            "img": "./img/BBMen.jpg"
-        },
-        {
-            "title": "Latest News",
-            "description": "BodyBuilding best</br> for you health",
-            "img": "./img/BBMen.jpg"
-        }
-    ],
-    "aboutme": {
-        "img": "./img/bodybuilder1.png",
-        "title": "About Me",
-        "subtitle": "Travelling",
-        "autor": "Dike AcAlister",
-        "date": "January 16,2016",
-        "information": "This is Photoshop's version now we’s of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi eiilit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsans ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti  have a great is the best sociosqu ad litora torquent per conubia nostra.\n\nExercitation photo booths stumptowns totes bag Banksy, elit small batch \nbit kale chips proident chillwave have a great work deep haves laborum.\n\nProins gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitgitis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec terzllus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti Duis aute irure dolor in reprehenderit in voluptate velit. Qui officia deserunt mollit anim id est labosasirum. Corrupti quosalores et quas molestias excepturi sint occaecati. Facere possimus, omnis voluptas assumenda have esOmnis dolor repellendus. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis.Et harum quidem the odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.sociosqu ad litora torquent per conubia nostra.\n\nWhat a crowded bazaar! There were large crowds of people at the shops. There were motor cars, rickshaws, scooters and taxies. The has buses, too, were plying up and own the bazaar. We kept to the foot-path. Soon we were at the Fountain. There we is th saw the Gurdwara Sis Ganj with its golden dome. A large number of devotees were going in or coming out.\n\nWe moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us."
-    },
-    "sidebar": {
-        "Title": "catagories",
-        "Title2": "latest post",
-        "List": [
-            {
-                "title": "lifestyle",
-                "point": "98"
-            },
-            {
-                "title": "audio",
-                "point": "102"
-            },
-            {
-                "title": "gallery",
-                "point": "83"
-            },
-            {
-                "title": "image",
-                "point": "04"
-            },
-            {
-                "title": "standert",
-                "point": "109"
-            },
-            {
-                "title": "statys",
-                "point": "50"
-            },
-            {
-                "title": "video",
-                "point": "102"
-            }
-        ],
-        "Img": "./img/Layer74.jpg",
-        "List2": [
-            {
-                "img": "./img/visual.jpg",
-                "title": "jurney towards a lifestyle",
-                "date": "Jan. 16 2015",
-                "like": "Like 255"
-            },
-            {
-                "img": "./img/product-250x250.jpeg",
-                "title": "Fashionable shoes for men",
-                "date": "Jan. 18 2015",
-                "like": "Like 26"
-            },
-            {
-                "img": "./img/it-was-really-awesome.jpg",
-                "title": "really awesome’s  Adventure",
-                "date": "Jan. 23 2015",
-                "like": "Like 23"
-            },
-            {
-                "img": "./img/sizedno1IMG_2082.jpg",
-                "title": "Man Hunting in jungle",
-                "date": "Jan. 16 2015",
-                "like": "Like 29"
-            }
-        ]
+  "siteTitle": "Site Title",
+  "siteTagline": "Site Tagline",
+  "top": {
+    "header": {
+      "title": "blog"
     }
+  },
+  "banner": [
+    {
+      "title": "Latest News",
+      "description": "BodyBuilding best</br> for you health",
+      "img": "./img/BBMen.jpg"
+    },
+    {
+      "title": "Latest News",
+      "description": "BodyBuilding best</br> for you health",
+      "img": "./img/BBMen.jpg"
+    },
+    {
+      "title": "Latest News",
+      "description": "BodyBuilding best</br> for you health",
+      "img": "./img/BBMen.jpg"
+    }
+  ],
+  "aboutme": {
+    "img": "./img/bodybuilder1.png",
+    "title": "About Me",
+    "subtitle": "Travelling",
+    "autor": "Dike AcAlister",
+    "date": "January 16,2016",
+    "information": "This is Photoshop's version now we’s of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi eiilit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsans ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti  have a great is the best sociosqu ad litora torquent per conubia nostra.\n\nExercitation photo booths stumptowns totes bag Banksy, elit small batch \nbit kale chips proident chillwave have a great work deep haves laborum.\n\nProins gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitgitis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec terzllus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti Duis aute irure dolor in reprehenderit in voluptate velit. Qui officia deserunt mollit anim id est labosasirum. Corrupti quosalores et quas molestias excepturi sint occaecati. Facere possimus, omnis voluptas assumenda have esOmnis dolor repellendus. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis.Et harum quidem the odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.sociosqu ad litora torquent per conubia nostra.\n\nWhat a crowded bazaar! There were large crowds of people at the shops. There were motor cars, rickshaws, scooters and taxies. The has buses, too, were plying up and own the bazaar. We kept to the foot-path. Soon we were at the Fountain. There we is th saw the Gurdwara Sis Ganj with its golden dome. A large number of devotees were going in or coming out.\n\nWe moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us."
+  },
+  "sidebar": {
+    "Title": "catagories",
+    "Title2": "latest post",
+    "List": [
+      {
+        "title": "lifestyle",
+        "point": "98"
+      },
+      {
+        "title": "audio",
+        "point": "102"
+      },
+      {
+        "title": "gallery",
+        "point": "83"
+      },
+      {
+        "title": "image",
+        "point": "04"
+      },
+      {
+        "title": "standert",
+        "point": "109"
+      },
+      {
+        "title": "statys",
+        "point": "50"
+      },
+      {
+        "title": "video",
+        "point": "102"
+      }
+    ],
+    "Img": "./img/Layer74.jpg",
+    "List2": [
+      {
+        "img": "./img/visual.jpg",
+        "title": "jurney towards a lifestyle",
+        "date": "Jan. 16 2015",
+        "like": "Like 255"
+      },
+      {
+        "img": "./img/product-250x250.jpeg",
+        "title": "Fashionable shoes for men",
+        "date": "Jan. 18 2015",
+        "like": "Like 26"
+      },
+      {
+        "img": "./img/it-was-really-awesome.jpg",
+        "title": "really awesome’s  Adventure",
+        "date": "Jan. 23 2015",
+        "like": "Like 23"
+      },
+      {
+        "img": "./img/sizedno1IMG_2082.jpg",
+        "title": "Man Hunting in jungle",
+        "date": "Jan. 16 2015",
+        "like": "Like 29"
+      }
+    ]
+  },
+  "footer": [
+    {
+      "title": "About Blog",
+      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
+      "img": "./img/NathaliyaJhone.jpg"
+    },
+    {
+      "title": "latest tweets",
+      "subtitle": "  @Twitter@magicalrebekah",
+      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
+      "description2": "Developer Advocate hav a great work this knows the very well is about things ."
+    },
+    {
+      "title": "Follow me instagram",
+      "slide1": "./img/Instagram_icon.png",
+      "slide2": "./img/Facebook.png",
+      "slide5": "./img/twitter.png",
+      "slide4": "./img/pinterest-logo.png",
+      "slide3": "./img/googleplus.png",
+      "slide6": "./img/YouTube.png"
+    },
+    {
+      "title": "latest comment",
+      "autorAlex": "From Alex : ",
+      "commentAlex": "Developer Advocate @heyval isaiyou know the very well is talking about things .",
+      "autorJohn": "From Jhon Doe :",
+      "commentJohn": "Developer Advocate @heyval isaiyou know the very well is talking about things ."
+    }
+  ],
+  "sidebargallery": {
+    "img": "./img/Layer94.png"
+  },
+  "betheone": {
+    "img": "./img/dontstopmeno.jpg",
+    "title": "be the one to stand out in the crowed",
+    "subtitle": "Travelling",
+    "autor": "Dike AcAlister",
+    "date": "January 16,2016",
+    "information": "This is Photoshop's version now we’s of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi eiilit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsans ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti  have a great is the best sociosqu ad litora torquent per conubia nostra.\n\nExercitation photo booths stumptowns totes bag Banksy, elit small batch \nbit kale chips proident chillwave have a great work deep haves laborum.\n\nProins gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitgitis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec terzllus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti Duis aute irure dolor in reprehenderit in voluptate velit. Qui officia deserunt mollit anim id est labosasirum. Corrupti quosalores et quas molestias excepturi sint occaecati. Facere possimus, omnis voluptas assumenda have esOmnis dolor repellendus. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis.Et harum quidem the odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.sociosqu ad litora torquent per conubia nostra.\n\nWhat a crowded bazaar! There were large crowds of people at the shops. There were motor cars, rickshaws, scooters and taxies. The has buses, too, were plying up and own the bazaar. We kept to the foot-path. Soon we were at the Fountain. There we is th saw the Gurdwara Sis Ganj with its golden dome. A large number of devotees were going in or coming out.\n\nWe moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.",
+    "note": "Beautiful, Nature, Place, weather"
+  },
+  "allpost": {
+    "img": "./img/BeverleyMitchell.jpg",
+    "autor": "Michell Beverly",
+    "link": "all post",
+    "post": "Patricia gives you the ability to let people actually read have your content, instead of focusing on all the other stuff that’s going on their screen."
+  }
 }
