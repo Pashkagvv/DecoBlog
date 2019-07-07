@@ -40,7 +40,7 @@ function initBlock() {
         // arrows: true,
         // dots: true,
         // vertical: true,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         // dotsClass: "my-dots",
         nextArrow: $('.next-arrow'),

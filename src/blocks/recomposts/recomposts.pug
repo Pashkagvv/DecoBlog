@@ -11,6 +11,6 @@ mixin recomposts(data = {})
             .recomposts__sliderCower
                 .recomposts__slider
                     each item in data.posts
-                        a.recomposts__link
+                        a.recomposts__link(href="#")
                             img.recomposts__img(src= item.img)
                             p.recomposts__subtitle= item.subtitle

@@ -161,8 +161,20 @@
     "title": "Recomended Posts",
   "posts": [
     {
-      "img": "./img/redskirt.jpg",
+      "img": "./img/girloncar.jpg",
       "subtitle": "girl on car vintage fashion "
+    },
+    {
+      "img": "./img/lady-and-tea.jpg",
+      "subtitle": "women make a tea for cup"
+    },
+    {
+      "img": "./img/car.jpg",
+      "subtitle": "i found the model 1980’s car "
+    },
+    {
+      "img": "./img/64628-small.jpeg",
+      "subtitle": "bisicle sport"
     }
   ]
 }
