@@ -19,6 +19,29 @@
   .slick-list {
     margin: 0 -15px;
   }
+  .next-arrow {
+    position: absolute;
+    top: 2%;
+    right: 20px;
+    background: $color-black;
+    padding: 10px;
+    transform: rotate(90deg);
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .prev-arrow {
+    position: absolute;
+    top: 2%;
+    right: 80px;
+    background: $color-black;
+    padding: 10px;
+    transform: rotate(90deg);
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
     // BEM elements
     // TODO: add code
   &__cower{
@@ -26,6 +49,7 @@
     border: 1px solid $color-input-border;
     box-shadow: 0 0 0 $color-icon-shadow;
     padding: 20px;
+    position: relative;
   }
 &__img{
   width: 100%;
@@ -51,6 +75,9 @@
     text-align: center;
     margin-top: 15px;
   }
+
+
+
     // Bem modifiers
     // TODO: add code
 }

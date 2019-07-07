@@ -1,0 +1,15 @@
+//-
+    name: catagories
+    description: Markup for the catagories block
+    arguments:
+        - {object} props - block properties
+
+mixin catagories(data = {})
+    .catagories&attributes(attributes)
+        h2.sidebar__Title= data.Title
+        ul
+            each item in data.List
+                li.catagories__ListItem
+                    a.catagories__ListLink(href="#")
+                        p.catagories__ListTitle= item.title
+                        p.catagories__ListPoint= item.point

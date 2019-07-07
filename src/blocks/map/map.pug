@@ -1,0 +1,16 @@
+//-
+    name: map
+    description: Markup for the map block
+    arguments:
+        - {object} props - block properties
+
+mixin map(data = {})
+    .map&attributes(attributes)
+        .map__cower
+            #map
+            .map__contentCower
+                h2.map__title= data.title
+                p.map__description= data.description
+                a.map__adress(href="#")!= data.adress
+                a.map__email(href="#")!= data.email
+                a.map__site(href="#")!= data.site

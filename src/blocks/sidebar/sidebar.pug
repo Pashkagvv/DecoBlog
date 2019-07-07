@@ -7,13 +7,7 @@
 mixin sidebar(data = {})
     .sidebar&attributes(attributes)
         .sidebar__Cower
-            h2.sidebar__Title= data.Title
-            ul
-                each item in data.List
-                    li.sidebar__sListItem
-                        a.sidebar__ListLink(href="#")
-                            p.sidebar__ListTitle= item.title
-                            p.sidebar__ListPoint= item.point
+
             img(src= data.Img)
             h2.sidebar__Title= data.Title2
             ul

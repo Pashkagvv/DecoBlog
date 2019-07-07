@@ -6,6 +6,7 @@ import LazyLoader from '../../../js/utils/lazy-loader';
 import content from '../../../blocks/content/content';
 import banner from '../../../blocks/top/banner/banner';
 import recomposts from '../../../blocks/recomposts/recomposts';
+import map from '../../../blocks/map/map';
 
 
 
@@ -91,6 +92,7 @@ function initBlock() {
     content.initBlock();
     banner.initBlock();
     recomposts.initBlock();
+    map.initBlock();
 
     // Process the initial window size and scroll position
     handleWindowResize();

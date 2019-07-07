@@ -65,6 +65,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "create-youtube-player": "^2.0.1",
+    "google-maps": "^3.3.0",
     "imagefill": "0.0.3",
     "imagesloaded": "^4.1.4",
     "jquery": "^3.4.0",

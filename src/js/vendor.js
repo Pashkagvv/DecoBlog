@@ -8,6 +8,7 @@ import 'yt-player';
 import 'create-youtube-player';
 import 'slick-carousel';
 import '@fortawesome/fontawesome-free';
+import 'google-maps';
 
 
 // Expose libraries to global Window object

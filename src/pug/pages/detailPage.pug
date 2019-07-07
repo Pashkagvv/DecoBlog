@@ -5,10 +5,11 @@ include ../../blocks/top/header/header.pug
 include ../../blocks/sidebargallery/sidebargallery.pug
 include ../../blocks/sidebar/sidebar.pug
 include ../../blocks/footer/footer.pug
-include ../../blocks/serchform/serchform.pug
+include ../../blocks/searchform/searchform.pug
 include ../../blocks/betheone/betheone.pug
 include ../../blocks/allpost/allpost.pug
 include ../../blocks/recomposts/recomposts.pug
+include ../../blocks/catagories/catagories.pug
 
 block page
     //- TODO: add code
@@ -22,7 +23,8 @@ block page
                     +allpost(data.allpost)
                     +recomposts(data.recomposts)
                 .col-3
-                    +serchform(data.serchform)
+                    +searchform(data.searchform)
                     +sidebargallery(data.sidebargallery)
+                    +catagories(data.catagories)
                     +sidebar(data.sidebar)
     +footer(data.footer)

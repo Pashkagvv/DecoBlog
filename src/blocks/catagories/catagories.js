@@ -1,5 +1,5 @@
 /**
- * @file Implementation of the serchform block
+ * @file Implementation of the catagories block
  */
 
 // -------------------------- BEGIN MODULE VARIABLES --------------------------
@@ -29,7 +29,7 @@
 // --------------------------- BEGIN PUBLIC METHODS ---------------------------
 
 /**
- * Initialize the serchform block.
+ * Initialize the catagories block.
  * @return true if the block is present on the page, false otherwise
  */
 function initBlock() {

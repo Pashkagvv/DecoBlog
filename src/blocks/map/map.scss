@@ -1,0 +1,53 @@
+/**
+ * Styles for the map block.
+ */
+.map {
+    // Selector styles
+    // TODO: add code
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+#map{
+  width: 567px;
+  height: 297px;
+}
+    // BEM elements
+    // TODO: add code
+&__cower{
+  display: flex;
+}
+  &__contentCower{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: $color-white;
+    box-shadow: 0.6px 0.8px 1px $color-contact;
+  }
+
+  &__title{
+    color: $color-post;
+    font-family: $font-family-Monserat;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid $color-border-all;
+    padding-bottom: 20px;
+  }
+
+  &__description, &__adress, &__email, &__site{
+    color: $color-post;
+    font-family: $font-family-Hind;
+    font-size: 14px;
+    font-weight: 400;
+
+  }
+    // Bem modifiers
+    // TODO: add code
+}

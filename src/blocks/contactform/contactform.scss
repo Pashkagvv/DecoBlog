@@ -1,0 +1,94 @@
+/**
+ * Styles for the contactform block.
+ */
+.contactform {
+  // Selector styles
+  // TODO: add code
+
+  // @media queries
+  // TODO: add code
+
+  // Pseudo-classes and pseudo-elements
+  // TODO: add code
+
+  // Nested selectors
+  // TODO: add code
+
+  // BEM elements
+  // TODO: add code
+
+  &__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+
+  &__name {
+    width: 47%;
+    margin: 0 10px;
+    height: 50px;
+    background-color: $color-white;
+    box-shadow: 0.6px 0.8px 1px $color-contact;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  &__email {
+    width: 47%;
+    margin: 0 10px;
+    height: 50px;
+    background-color: $color-white;
+    box-shadow: 0.6px 0.8px 1px $color-contact;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  &__website {
+    width: 100%;
+    margin: 0 10px;
+    height: 50px;
+    background-color: $color-white;
+    box-shadow: 0.6px 0.8px 1px $color-contact;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  &__message {
+    width: 100%;
+    margin: 0 10px;
+    height: 50px;
+    background-color: $color-white;
+    box-shadow: 0.6px 0.8px 1px $color-contact;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+
+&__button{
+  height: 40px;
+  background-color: $color-header-bg;
+  outline: none;
+  border: none;
+  color: $color-white;
+  font-family: $font-family-Monserat;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+  // Bem modifiers
+  // TODO: add code
+}

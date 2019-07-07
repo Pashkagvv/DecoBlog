@@ -1,12 +1,13 @@
 //-
-    name: serchform
-    description: Markup for the serchform block
+    name: searchform
+    description: Markup for the searchform block
     arguments:
         - {object} props - block properties
 
-mixin serchform(props = {})
-    .serchform&attributes(attributes)
+mixin searchform(data = {})
+    .searchform&attributes(attributes)
         .searchform__cower
             form.searchform__form
                 input.searchform__inputSearch(type="search" placeholder="search")
+                button.searchform__button!= data.button
 

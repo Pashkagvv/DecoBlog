@@ -1,5 +1,5 @@
 /**
- * @file Implementation of the recomposts block
+ * @file Implementation of the searchform block
  */
 
 // -------------------------- BEGIN MODULE VARIABLES --------------------------
@@ -29,32 +29,11 @@
 // --------------------------- BEGIN PUBLIC METHODS ---------------------------
 
 /**
- * Initialize the recomposts block.
+ * Initialize the searchform block.
  * @return true if the block is present on the page, false otherwise
  */
 function initBlock() {
     // TODO: add code here
-    $('.recomposts__slider').slick({
-        infinite: true,
-        autoplay: true,
-        arrows: true,
-        // dots: true,
-        // vertical: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        // dotsClass: "my-dots",
-        nextArrow: $('.next-arrow'),
-        prevArrow: $('.prev-arrow'),
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    arrows: false,
-                    dots: false
-                }
-            },
-        ]
-    });
     return true;
 }
 
