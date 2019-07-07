@@ -5,6 +5,7 @@
 import LazyLoader from '../../../js/utils/lazy-loader';
 import content from '../../../blocks/content/content';
 import banner from '../../../blocks/top/banner/banner';
+import recomposts from '../../../blocks/recomposts/recomposts';
 
 
 
@@ -29,45 +30,45 @@ let wasScrolled = false;
  * Handle the window scroll event
  */
 function handleWindowScroll() {
-	LazyLoader.scanImages();
+    LazyLoader.scanImages();
 
-	// TODO: add code
+    // TODO: add code
 }
 
 /**
  * Handle the window resize event
  */
 function handleWindowResize() {
-	// TODO: add code
+    // TODO: add code
 }
 
 /**
  * Debounce the window resize event
  */
 function debounceWindowResize() {
-	clearTimeout(resizeTimer);
-	resizeTimer = setTimeout(handleWindowResize, RESIZE_INTERVAL);
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(handleWindowResize, RESIZE_INTERVAL);
 }
 
 /**
  * Throttle the window scroll event
  */
 function throttleWindowScroll() {
-	if (scrollTimer) {
-		// Ensure that we catch and execute that last invocation.
-		wasScrolled = true;
-		return;
-	}
+    if (scrollTimer) {
+        // Ensure that we catch and execute that last invocation.
+        wasScrolled = true;
+        return;
+    }
 
-	handleWindowScroll();
+    handleWindowScroll();
 
-	scrollTimer = this.setTimeout(function() {
-		scrollTimer = null;
-		if (wasScrolled) {
-			handleWindowScroll();
-			wasScrolled = false;
-		}
-	}, SCROLL_INTERVAL);
+    scrollTimer = this.setTimeout(function() {
+        scrollTimer = null;
+        if (wasScrolled) {
+            handleWindowScroll();
+            wasScrolled = false;
+        }
+    }, SCROLL_INTERVAL);
 }
 
 // ---------------------------- END EVENT HANDLERS ----------------------------
@@ -79,26 +80,27 @@ function throttleWindowScroll() {
  * @return true
  */
 function initBlock() {
-	$(window).on({
-		resize: debounceWindowResize,
-		scroll: throttleWindowScroll,
-	});
+    $(window).on({
+        resize: debounceWindowResize,
+        scroll: throttleWindowScroll,
+    });
 
-	LazyLoader.init();
+    LazyLoader.init();
 
-	// TODO: initialize other blocks
-	content.initBlock();
-	banner.initBlock();
+    // TODO: initialize other blocks
+    content.initBlock();
+    banner.initBlock();
+    recomposts.initBlock();
 
-	// Process the initial window size and scroll position
-	handleWindowResize();
-	handleWindowScroll();
+    // Process the initial window size and scroll position
+    handleWindowResize();
+    handleWindowScroll();
 
-	return true;
+    return true;
 }
 
 // ---------------------------- END PUBLIC METHODS ----------------------------
 
 export default {
-	initBlock,
+    initBlock,
 };

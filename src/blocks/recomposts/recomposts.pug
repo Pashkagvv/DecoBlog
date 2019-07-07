@@ -1,0 +1,16 @@
+//-
+    name: recomposts
+    description: Markup for the recomposts block
+    arguments:
+        - {object} props - block properties
+
+mixin recomposts(data = {})
+    .recomposts&attributes(attributes)
+        .recomposts__cower
+            p.recomposts__title= data.title
+            .recomposts__sliderCower
+                .recomposts__slider
+                    each item in data.posts
+                        a.recomposts__link
+                            img.recomposts__img(src= item.img)
+                            p.recomposts__subtitle= item.subtitle

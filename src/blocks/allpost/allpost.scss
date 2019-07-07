@@ -21,6 +21,7 @@
     background-color: $color-white;
     border: 1px solid $color-input-border;
     box-shadow: 0 0 0 $color-icon-shadow;
+    margin-top: 40px;
   }
 &__topCower{
   width: 100%;
@@ -55,6 +56,41 @@
     font-size: 16px;
     font-weight: 400;
 
+  }
+
+  &__ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  &__listItemLink{
+    display: flex;
+    box-shadow: 0 0 0 $color-box-shadow;
+    border: 1px solid $color-input-border;
+    background: $color-white;
+  }
+
+  &__social{
+    padding: 15px;
+    padding-left: 22px;
+    width: 60px;
+    border-right: 1px solid $color-input-border;
+    margin: 0;
+    color: $color-description;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &__linkContent{
+    padding: 15px 30px;
+    margin: 0;
+    width: 203px;
+    color: $color-placeholder;
+    font-family: $font-family-Hind;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-transform: uppercase;
   }
     // Bem modifiers
     // TODO: add code

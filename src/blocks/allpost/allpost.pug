@@ -13,3 +13,9 @@ mixin allpost(data = {})
                     p.allpost__autor= data.autor
                     a.allpost__link(href="#")= data.link
                 p.allpost__post= data.post
+        ul.allpost__ul
+            each item in data.sociallinks
+                li.allpost__listItem
+                    a.allpost__listItemLink(href="#")
+                        p.allpost__social!= item.type
+                        p.allpost__linkContent= item.linkcontent

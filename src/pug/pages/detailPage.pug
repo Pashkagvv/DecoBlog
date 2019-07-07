@@ -8,6 +8,7 @@ include ../../blocks/footer/footer.pug
 include ../../blocks/serchform/serchform.pug
 include ../../blocks/betheone/betheone.pug
 include ../../blocks/allpost/allpost.pug
+include ../../blocks/recomposts/recomposts.pug
 
 block page
     //- TODO: add code
@@ -19,6 +20,7 @@ block page
                 .col-9
                     +betheone(data.betheone)
                     +allpost(data.allpost)
+                    +recomposts(data.recomposts)
                 .col-3
                     +serchform(data.serchform)
                     +sidebargallery(data.sidebargallery)

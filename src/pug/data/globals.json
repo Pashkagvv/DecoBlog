@@ -137,6 +137,33 @@
     "img": "./img/BeverleyMitchell.jpg",
     "autor": "Michell Beverly",
     "link": "all post",
-    "post": "Patricia gives you the ability to let people actually read have your content, instead of focusing on all the other stuff that’s going on their screen."
-  }
+    "post": "Patricia gives you the ability to let people actually read have your content, instead of focusing on all the other stuff that’s going on their screen.",
+    "sociallinks":[
+      {
+        "type": "<i class=\"fab fa-facebook-f\"></i>",
+        "linkcontent": "Facebook 28"
+      },
+      {
+        "type": "<i class=\"fab fa-twitter\"></i>",
+        "linkcontent": "Twitter 40"
+      },
+      {
+        "type": "<i class=\"fab fa-tumblr\"></i>",
+        "linkcontent": "Tumbler 11"
+      },
+      {
+        "type": "<i class=\"fab fa-pinterest\"></i>",
+        "linkcontent": "pinterest 83"
+      }
+    ]
+  },
+  "recomposts": {
+    "title": "Recomended Posts",
+  "posts": [
+    {
+      "img": "./img/redskirt.jpg",
+      "subtitle": "girl on car vintage fashion "
+    }
+  ]
+}
 }
