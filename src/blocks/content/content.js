@@ -47,41 +47,38 @@ function initBlock() {
         });
     });
 
-	const YTPlayer = require('yt-player');
-	let player = new YTPlayer('#player');
+    const YTPlayer = require('yt-player');
 
+    if ($('#player').length) {
+        const player = new YTPlayer('#player');
 
+        player.load('0hJZ7sxD8MY');
+        player.setVolume(100);
 
+        player.on('playing', () => {
+            console.log(player.getDuration()) // => 351.521
+        });
+    }
+    
 
-
-	player.load('0hJZ7sxD8MY');
-	player.setVolume(100);
-
-
-
-
-	player.on('playing', () => {
-		console.log(player.getDuration()) // => 351.521
-	});
-
-	$('.content__windowSlider').slick({
-		rows: 2,
-		slidesToShow: 1,
-		arrows: false,
-		slidesPerRow: 2,
-		infinite: true,
-		speed: 500,
-		autoplay: true,
-		fade: true,
-		responsive: [
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 1
-				}
-			}
-		]
-	});
+    $('.content__windowSlider').slick({
+        rows: 2,
+        slidesToShow: 1,
+        arrows: false,
+        slidesPerRow: 2,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        fade: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 
 }
 
