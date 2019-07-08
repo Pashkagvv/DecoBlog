@@ -7,8 +7,8 @@
 mixin contactform(data = {})
     .contactform&attributes(attributes)
         form.contactform__form
-            input.contactform__name(type="text" placeholder=  data.name)
-            input.contactform__email(type="email" placeholder= data.email)
-            input.contactform__website(type="url" placeholder= data.website)
+            input.contactform__name(type="text" placeholder=  data.name required)
+            input.contactform__email(type="email" placeholder= data.email required)
+            input.contactform__website(type="url" placeholder= data.website required)
             textarea.contactform__message( placeholder= data.message)
             button.contactform__button(type="submit")= data.button

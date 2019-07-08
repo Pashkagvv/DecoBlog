@@ -10820,6 +10820,11 @@ readers do not read off random characters that represent icons */
  */
 .header {
   background: #212429;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header input {
@@ -12071,7 +12076,7 @@ readers do not read off random characters that represent icons */
 .contactform__message {
   width: 100%;
   margin: 0 10px;
-  height: 50px;
+  min-height: 300px;
   background-color: #fff;
   box-shadow: 0.6px 0.8px 1px rgba(234, 234, 235, 0.75);
   border: none;

@@ -4,7 +4,11 @@
 .header {
   //background: #212429;
   background: $color-header-bg;
-
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
   // Selector styles
   // TODO: add code
 
@@ -123,8 +127,6 @@
     i {
       color: $color-white;
       padding: 19px 20px 20px 19px;
-
-
       border-left: 1px solid $color-header-border;
       border-right: 1px solid $color-header-border;
     }
