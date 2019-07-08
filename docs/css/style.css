@@ -10848,13 +10848,17 @@ readers do not read off random characters that represent icons */
 
 .header .nav__showmenu {
   position: relative;
-  z-index: 999;
+  z-index: 997;
   display: inline-block;
-  margin-left: -10px;
-  padding: 5px 10px 10px;
+  margin-left: 0px;
+  padding: 8px 20px 10px 19px;
+  border-left: 1px solid #3c3c3c;
+  border-right: 1px solid #3c3c3c;
   top: 2px;
   font-size: 23px;
   color: #fff;
+  margin-bottom: 0px;
+  bottom: 0px;
 }
 
 .header .nav__back {
@@ -10899,6 +10903,7 @@ readers do not read off random characters that represent icons */
   background-color: #ddd;
   max-height: 0;
   transition: max-height .3s ease-in-out;
+  color: #fff;
 }
 
 .header .menu__showsub {
@@ -11001,6 +11006,11 @@ readers do not read off random characters that represent icons */
   height: 16px;
   margin-top: 7px;
   margin-top: 20px;
+}
+
+.header__cower {
+  display: flex;
+  justify-content: space-between;
 }
 
 /**
@@ -11401,6 +11411,10 @@ readers do not read off random characters that represent icons */
 /**
  * Styles for the banner block.
  */
+.banner {
+  width: 100%;
+}
+
 .banner .next-arrow {
   position: absolute;
   top: 60%;
@@ -11530,6 +11544,8 @@ readers do not read off random characters that represent icons */
 
 .banner__sliderCower {
   position: relative;
+  right: 0;
+  left: 0;
 }
 
 .banner__img {
@@ -11552,8 +11568,15 @@ readers do not read off random characters that represent icons */
 
 .footer__galeryItem {
   margin: 0.5px;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 767px) {
+  .footer__galeryItem {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .footer__title {
@@ -12272,6 +12295,7 @@ readers do not read off random characters that represent icons */
 .top {
   height: 345px;
   background: #212429;
+  width: 100%;
 }
 
 .blogs {

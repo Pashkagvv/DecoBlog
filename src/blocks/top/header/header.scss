@@ -36,13 +36,20 @@
 
   .nav__showmenu {
     position: relative;
-    z-index: 999;
+    z-index: 997;
     display: inline-block;
-    margin-left: -10px;
-    padding: 5px 10px 10px;
+    margin-left: 0px;
+    padding: 8px 20px 10px 19px;
+    border-left: 1px solid $color-header-border;
+    border-right: 1px solid $color-header-border;
     top: 2px;
     font-size: 23px;
     color: $color-white;
+
+
+    margin-bottom: 0px;
+    bottom: 0px;
+
   }
 
   .nav__back {
@@ -87,6 +94,8 @@
     background-color: #ddd;
     max-height: 0;
     transition: max-height .3s ease-in-out;
+    color: $color-white;
+
   }
 
   .menu__showsub {
@@ -174,7 +183,10 @@
     margin-top: 20px;
   }
 
-
+&__cower{
+  display: flex;
+  justify-content: space-between;
+}
 
   // Bem modifiers
   // TODO: add code

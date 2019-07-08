@@ -48,7 +48,7 @@ function initBlock() {
         prevArrow: $('.prev-arrow'),
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 767,
                 settings: {
                     arrows: false,
                     dots: false

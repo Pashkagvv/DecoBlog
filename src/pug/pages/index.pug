@@ -14,8 +14,10 @@ block page
     //- TODO: add code
     .top
         +header(data.top)
-        +banner(data.banner)
+        .container
+            +banner(data.banner)
     +newslatter(data.newslatter)
-    +content(data.content)
+    .container
+        +content(data.content)
 
     +footer(data.footer)
