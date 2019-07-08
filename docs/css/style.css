@@ -10960,12 +10960,6 @@ readers do not read off random characters that represent icons */
   border-right: 1px solid #3c3c3c;
 }
 
-@media (max-width: 576px) {
-  .header__social {
-    display: none;
-  }
-}
-
 .header__title {
   color: #fff;
   font-family: "Hind", sans-serif;
@@ -10984,9 +10978,21 @@ readers do not read off random characters that represent icons */
   justify-content: flex-end;
 }
 
+@media (max-width: 576px) {
+  .header__list {
+    display: none;
+  }
+}
+
 .header__logoWrapper {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .header__logoWrapper {
+    margin: 0 auto;
+  }
 }
 
 .header__logo {

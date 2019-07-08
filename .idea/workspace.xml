@@ -32,6 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/top/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/header/header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+            <state relative-caret-position="251">
+              <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -311,12 +313,12 @@
       <workItem from="1562405651106" duration="8550000" />
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
-      <workItem from="1562484385358" duration="35085000" />
+      <workItem from="1562484385358" duration="35556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294429000" />
+    <option name="totallyTimeSpent" value="294900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+        <state relative-caret-position="251">
+          <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
         </state>
       </provider>
     </entry>

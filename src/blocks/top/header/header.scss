@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
 
+
   // Selector styles
   // TODO: add code
 
@@ -131,9 +132,7 @@
       border-left: 1px solid $color-header-border;
       border-right: 1px solid $color-header-border;
     }
-    @media (max-width: 576px){
-      display: none;
-    }
+
   }
 
   &__title {
@@ -152,12 +151,17 @@
   &__list {
     display: flex;
     justify-content: flex-end;
-
+    @media (max-width: 576px){
+      display: none;
+    }
   }
 
   &__logoWrapper {
     display: flex;
     justify-content: center;
+    @media (max-width: 576px){
+      margin: 0 auto;
+    }
   }
 
   &__logo {
