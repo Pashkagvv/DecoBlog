@@ -46,15 +46,7 @@ function initBlock() {
         dotsClass: "my-dots",
         nextArrow: $('.next-arrow'),
         prevArrow: $('.prev-arrow'),
-        responsive: [
-            {
-                breakpoint: 767,
-                settings: {
-                    arrows: false,
-                    dots: false
-                }
-            },
-        ]
+
     });
     return true;
 }

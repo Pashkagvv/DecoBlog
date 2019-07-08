@@ -1691,14 +1691,7 @@ function initBlock() {
     slidesToScroll: 1,
     dotsClass: "my-dots",
     nextArrow: $('.next-arrow'),
-    prevArrow: $('.prev-arrow'),
-    responsive: [{
-      breakpoint: 767,
-      settings: {
-        arrows: false,
-        dots: false
-      }
-    }]
+    prevArrow: $('.prev-arrow')
   });
   return true;
 } // ---------------------------- END PUBLIC METHODS ----------------------------

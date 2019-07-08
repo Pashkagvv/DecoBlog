@@ -11,8 +11,9 @@ mixin header(data = {})
                 nav.nav
                     input.nav__check(type="checkbox" id="showmenu")
                     label.nav__showmenu(for="showmenu") &#9776;
-                    label.nav__back(for="showmenu")
+
                     ul.menu
+                        label.nav__back(for="showmenu") <i class="fas fa-times"></i>
                         li
                             a.menu__item( href="index.html") Home
                             li
