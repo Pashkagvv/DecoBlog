@@ -6,108 +6,104 @@
 
 mixin content(data = {})
     .content&attributes(attributes)
-        .container
-
-                .grid#masonry-grid
-
-                    .row
-                        each item in data
-                            if (item.type == 'textsocial')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__textsocial
-                                        +icon('pancil')
-                                        .content__subtitle= item.subtitle
-                                        .content__title= item.title
-                                        .content__date= item.date
-                                        .content__description= item.description
-                                        a.content__links(href='#')= item.links
-                                        .content__post1-footer
-                                            a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
-                                            .content__socialWrapper
-                                                a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
+        .grid#masonry-grid
+            each item in data
+                if (item.type == 'textsocial')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__textsocial
+                            +icon('pancil')
+                            .content__subtitle= item.subtitle
+                            .content__title= item.title
+                            .content__date= item.date
+                            .content__description= item.description
+                            a.content__links(href='#')= item.links
+                            .content__post1-footer
+                                a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
+                                .content__socialWrapper
+                                    a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
 
 
-                            if(item.type == 'text')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__text
-                                        .content__subtitle= item.subtitle
-                                        .content__title= item.title
-                                        .content__date= item.date
-                                        .content__description= item.description
-                                        a.content__links(href='#')= item.links
-                            if(item.type == 'blockqoutes')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__blockqoutes
-                                        +icon('qu')
-                                        .content__descriptionWhite= item.description
-                                        .content__autor= item.autor
-                            if(item.type == 'imgnotext')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    img.content__imgnotext(src= item.img)
-                            if(item.type == 'video')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__video
-                                        .content__videoArea#player
-                                            +icon('video')
-                                        .content__subtitle= item.subtitle
-                                        .content__title= item.title
-                                        .content__date= item.date
-                                        .content__description= item.description
-                                        .content__post1-footer
-                                            a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
-                                            .content__socialWrapper
-                                                a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
+                if(item.type == 'text')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__text
+                            .content__subtitle= item.subtitle
+                            .content__title= item.title
+                            .content__date= item.date
+                            .content__description= item.description
+                            a.content__links(href='#')= item.links
+                if(item.type == 'blockqoutes')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__blockqoutes
+                            +icon('qu')
+                            .content__descriptionWhite= item.description
+                            .content__autor= item.autor
+                if(item.type == 'imgnotext')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        img.content__imgnotext(src= item.img)
+                if(item.type == 'video')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__video
+                            .content__videoArea#player
+                                +icon('video')
+                            .content__subtitle= item.subtitle
+                            .content__title= item.title
+                            .content__date= item.date
+                            .content__description= item.description
+                            .content__post1-footer
+                                a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
+                                .content__socialWrapper
+                                    a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
 
-                            if(item.type == 'link')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__link
-                                        +icon('chain')
-                                        a.content__linkContent(href="#")!= item.link
-                            if(item.type == 'grid')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__greedCower
-                                        +icon('grid')
-                                        .content__windowSlider#slider-1
-                                            img.content__slickImg(src= item.img1)
-                                            img.content__slickImg(src= item.img2)
-                                            img.content__slickImg(src= item.img3)
-                                            img.content__slickImg(src= item.img4)
-                                            img.content__slickImg(src= item.img5)
-                                            img.content__slickImg(src= item.img6)
-                                            img.content__slickImg(src= item.img7)
-                                            img.content__slickImg(src= item.img8)
+                if(item.type == 'link')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__link
+                            +icon('chain')
+                            a.content__linkContent(href="#")!= item.link
+                if(item.type == 'grid')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__greedCower
+                            +icon('grid')
+                            .content__windowSlider#slider-1
+                                img.content__slickImg(src= item.img1)
+                                img.content__slickImg(src= item.img2)
+                                img.content__slickImg(src= item.img3)
+                                img.content__slickImg(src= item.img4)
+                                img.content__slickImg(src= item.img5)
+                                img.content__slickImg(src= item.img6)
+                                img.content__slickImg(src= item.img7)
+                                img.content__slickImg(src= item.img8)
 
-                            if(item.type == 'audio')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__audio
-                                        +icon('audio')
-                                        .content__subtitle= item.subtitle
-                                        .content__title= item.title
-                                        .content__date= item.date
-                                        audio(controls)
-                            if(item.type == 'img')
-                                .grid-item.col-md-3.col-sm-4.col-xs-6
-                                    .content__imgCower
-                                        .content__img
-                                            img.content__imgbg(src= item.img)
-                                        +icon('image')
-                                        .content__subtitle= item.subtitle
-                                        .content__title= item.title
-                                        .content__date= item.date
-                                        a.content__links(href='#')= item.links
-                                        .content__post1-footer
-                                            a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
-                                            .content__socialWrapper
-                                                a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
+                if(item.type == 'audio')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__audio
+                            +icon('audio')
+                            .content__subtitle= item.subtitle
+                            .content__title= item.title
+                            .content__date= item.date
+                            audio(controls)
+                if(item.type == 'img')
+                    .grid-item.col-md-3.col-sm-4.col-xs-6
+                        .content__imgCower
+                            .content__img
+                                img.content__imgbg(src= item.img)
+                            +icon('image')
+                            .content__subtitle= item.subtitle
+                            .content__title= item.title
+                            .content__date= item.date
+                            a.content__links(href='#')= item.links
+                            .content__post1-footer
+                                a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
+                                .content__socialWrapper
+                                    a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
+                                    a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
 
 
 

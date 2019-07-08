@@ -8,8 +8,15 @@
   padding-bottom: 23px;
   display: flex;
   justify-content: space-between;
-  @media (max-width: 768px){
+  @media (max-width: 767px){
     padding-top: 15px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media (max-width: 991px){
+    padding-top: 15px;
+    flex-direction: column;
+    justify-content: center
   }
   // @media queries
   // TODO: add code
@@ -46,8 +53,11 @@
     line-height: 28px;
     letter-spacing: 0.175em;
     text-transform: uppercase;
-    @media (max-width: 768px){
+    @media (max-width: 767px){
       display: none;
+    }
+    @media (max-width: 991px){
+      text-align: center;
     }
   }
 
@@ -56,9 +66,9 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    @media (max-width: 768px){
+    @media (max-width: 767px){
       flex-direction: column;
-
+      align-items: center;
     }
   }
 
@@ -68,7 +78,7 @@
     margin: 10px;
     border: 1px solid $color-input-border;
     border-radius: 0;
-    @media (max-width: 768px){
+    @media (max-width: 767px){
       width: 100%;
     }
   }
@@ -80,9 +90,7 @@
     width: 100%;
     border: 1px solid $color-input-border;
     border-radius: 0;
-    @media (max-width: 768px){
-      width: 100%;
-    }
+
   }
 
   &__button {
