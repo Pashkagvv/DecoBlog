@@ -15,7 +15,7 @@ const {env} = minimist(process.argv.slice(2), {
  */
 const TOP = '.';
 const SRC = `${TOP}/src`
-const DIST = `${TOP}/dist`;
+const DIST = `${TOP}/docs`;
 
 module.exports = {
     env,
