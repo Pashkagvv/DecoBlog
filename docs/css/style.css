@@ -10960,6 +10960,12 @@ readers do not read off random characters that represent icons */
   border-right: 1px solid #3c3c3c;
 }
 
+@media (max-width: 576px) {
+  .header__social {
+    display: none;
+  }
+}
+
 .header__title {
   color: #fff;
   font-family: "Hind", sans-serif;
