@@ -32,10 +32,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gulp/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/contactform/contactform.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/contactform/contactform.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/contactform/contactform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/contactform/contactform.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/map/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/map/map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AboutMe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/contactus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploying.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/detailPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/file-structure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/gulp-tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/icons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,11 +206,6 @@
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="gulp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -305,12 +308,12 @@
       <workItem from="1562405651106" duration="8550000" />
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
-      <workItem from="1562484385358" duration="26119000" />
+      <workItem from="1562484385358" duration="26704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285463000" />
+    <option name="totallyTimeSpent" value="286048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
