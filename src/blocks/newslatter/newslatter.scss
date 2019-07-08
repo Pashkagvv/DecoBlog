@@ -6,7 +6,11 @@
   // TODO: add code
   padding-top: 180px;
   padding-bottom: 23px;
-
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 576px){
+    padding-top: 15px;
+  }
   // @media queries
   // TODO: add code
 
@@ -42,12 +46,20 @@
     line-height: 28px;
     letter-spacing: 0.175em;
     text-transform: uppercase;
+    @media (max-width: 576px){
+      display: none;
+    }
   }
 
   &__form {
     padding-top: 4px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    @media (max-width: 576px){
+      flex-direction: column;
+
+    }
   }
 
   &__inputName {
@@ -56,6 +68,9 @@
     margin: 10px;
     border: 1px solid $color-input-border;
     border-radius: 0;
+    @media (max-width: 576px){
+      width: 100%;
+    }
   }
 
   &__inputEmail {
@@ -65,7 +80,9 @@
     width: 100%;
     border: 1px solid $color-input-border;
     border-radius: 0;
-
+    @media (max-width: 576px){
+      width: 100%;
+    }
   }
 
   &__button {

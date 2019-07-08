@@ -11008,6 +11008,14 @@ readers do not read off random characters that represent icons */
 .newslatter {
   padding-top: 180px;
   padding-bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .newslatter {
+    padding-top: 15px;
+  }
 }
 
 .newslatter__inputName::-webkit-input-placeholder, .newslatter__inputEmail::-webkit-input-placeholder {
@@ -11070,10 +11078,23 @@ readers do not read off random characters that represent icons */
   text-transform: uppercase;
 }
 
+@media (max-width: 576px) {
+  .newslatter__title {
+    display: none;
+  }
+}
+
 .newslatter__form {
   padding-top: 4px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .newslatter__form {
+    flex-direction: column;
+  }
 }
 
 .newslatter__inputName {
@@ -11084,12 +11105,24 @@ readers do not read off random characters that represent icons */
   border-radius: 0;
 }
 
+@media (max-width: 576px) {
+  .newslatter__inputName {
+    width: 100%;
+  }
+}
+
 .newslatter__inputEmail {
   height: 52px;
   margin: 10px;
   width: 100%;
   border: 1px solid rgba(221, 221, 221, 0.15);
   border-radius: 0;
+}
+
+@media (max-width: 576px) {
+  .newslatter__inputEmail {
+    width: 100%;
+  }
 }
 
 .newslatter__button {
