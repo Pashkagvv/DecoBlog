@@ -15,7 +15,7 @@
     {
       "type": "img",
       "subtitle": "Travelling",
-      "img": "../img/sth1.jpg",
+      "img": "./img/sth1.jpg",
       "title": "Standard Image Post",
       "date": "January 25, 2016",
       "links": "Read More"
@@ -42,12 +42,12 @@
     },
     {
       "type": "imgnotext",
-      "img": "../img/sport.jpg"
+      "img": "./img/sport.jpg"
     },
     {
       "type": "img",
       "subtitle": "Adventures",
-      "img": "../img/The-Zen-of-Kayaking-I-photograph-the-fjords-of-Norway-from-the-kayak-seat11__880.jpg",
+      "img": "./img/The-Zen-of-Kayaking-I-photograph-the-fjords-of-Norway-from-the-kayak-seat11__880.jpg",
       "title": "awesome Gallery Post",
       "date": "January 19, 2016",
       "links": "Read More"
@@ -58,18 +58,18 @@
     },
     {
       "type": "grid",
-      "img1": "../img/_ICH0724.jpg",
-      "img2": "../img/2.jpg",
-      "img3": "../img/3.jpg",
-      "img4": "../img/4.jpg",
-      "img5": "../img/5.jpg",
-      "img6": "../img/6.jpg",
-      "img7": "../img/7.jpg",
-      "img8": "../img/8.jpg"
+      "img1": "./img/_ICH0724.jpg",
+      "img2": "./img/2.jpg",
+      "img3": "./img/3.jpg",
+      "img4": "./img/4.jpg",
+      "img5": "./img/5.jpg",
+      "img6": "./img/6.jpg",
+      "img7": "./img/7.jpg",
+      "img8": "./img/8.jpg"
     },
     {
       "type": "imgnotext",
-      "img": "../img/Nimai-Delgado.08.jpg"
+      "img": "./img/Nimai-Delgado.08.jpg"
     },
     {
       "type": "textsocial",
@@ -84,7 +84,7 @@
       "subtitle": "Audio Music ",
       "title": "Best Audio Player Post",
       "date": "December 29, 2015",
-      "img": "../img/ellipse.png"
+      "img": "./img/ellipse.png"
     },
     {
       "type": "text",
