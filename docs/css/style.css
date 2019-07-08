@@ -11012,7 +11012,7 @@ readers do not read off random characters that represent icons */
   justify-content: space-between;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .newslatter {
     padding-top: 15px;
   }
@@ -11078,7 +11078,7 @@ readers do not read off random characters that represent icons */
   text-transform: uppercase;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .newslatter__title {
     display: none;
   }
@@ -11091,7 +11091,7 @@ readers do not read off random characters that represent icons */
   margin: 0 auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .newslatter__form {
     flex-direction: column;
   }
@@ -11105,7 +11105,7 @@ readers do not read off random characters that represent icons */
   border-radius: 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .newslatter__inputName {
     width: 100%;
   }
@@ -11119,7 +11119,7 @@ readers do not read off random characters that represent icons */
   border-radius: 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .newslatter__inputEmail {
     width: 100%;
   }

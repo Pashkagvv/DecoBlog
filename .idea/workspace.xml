@@ -32,10 +32,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="809">
+              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -307,12 +303,12 @@
       <workItem from="1562405651106" duration="8550000" />
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
-      <workItem from="1562484385358" duration="37735000" />
+      <workItem from="1562484385358" duration="38003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297079000" />
+    <option name="totallyTimeSpent" value="297347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -686,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="809">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
         </state>
       </provider>
     </entry>
