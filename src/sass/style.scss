@@ -34,8 +34,7 @@
 
 // TODO: include other block styles
 .container {
-
-
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0;
 }
@@ -44,10 +43,15 @@
   //background: url("../img/HomePage.jpg");
   //width: 1638px;
   background: $color-body;
+  width: 100%;
+
 }
 .top{
   height: 345px;
   background: $color-header-bg;
+  //@media (max-width: 767px){
+  //
+  //}
 }
 
 .blogs{

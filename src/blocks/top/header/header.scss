@@ -5,6 +5,9 @@
   //background: #212429;
   background: $color-header-bg;
   position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
   width: 100%;
   z-index: 999;
   display: flex;
@@ -165,7 +168,7 @@
   }
 
   &__logo {
-    width: 76px;
+
     height: 16px;
     margin-top: 7px;
     margin-top: 20px;

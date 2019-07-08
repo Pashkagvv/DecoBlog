@@ -10821,6 +10821,9 @@ readers do not read off random characters that represent icons */
 .header {
   background: #212429;
   position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
   width: 100%;
   z-index: 999;
   display: flex;
@@ -10995,7 +10998,6 @@ readers do not read off random characters that represent icons */
 }
 
 .header__logo {
-  width: 76px;
   height: 16px;
   margin-top: 7px;
   margin-top: 20px;
@@ -12257,12 +12259,14 @@ readers do not read off random characters that represent icons */
 }
 
 .container {
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0;
 }
 
 .page {
   background: #f9f9fb;
+  width: 100%;
 }
 
 .top {
