@@ -12,15 +12,12 @@ include ../../blocks/catagories/catagories.pug
 
 block page
     //- TODO: add code
+    +header(data.top)
     .container
         .row
-            .col-12
-                +header(data.top)
-    .container
-        .row
-            .col-9
+            .col-md-12.col-lg-8
                 +aboutme(data.aboutme)
-            .col-3
+            .col-md-12.col-lg-4
                 +searchform(data.searchform)
                 +catagories(data.catagories)
                 +sidebar(data.sidebar)

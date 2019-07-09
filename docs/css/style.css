@@ -16816,6 +16816,10 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Styles for the aboutme block.
  */
+.aboutme {
+  margin-top: 20px;
+}
+
 .aboutme .icon {
   fill: #fff;
   display: block;
@@ -17415,6 +17419,10 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Styles for the serachform block.
  */
+.searchform {
+  margin-top: 20px;
+}
+
 .searchform__inputSearch::-webkit-input-placeholder {
   color: #212121;
   font-family: "Hind", sans-serif;
@@ -17422,6 +17430,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 300;
   text-transform: uppercase;
 }
+
 .searchform__inputSearch::-moz-placeholder {
   color: #212121;
   font-family: "Hind", sans-serif;
@@ -17429,6 +17438,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 300;
   text-transform: uppercase;
 }
+
 .searchform__inputSearch:-ms-input-placeholder {
   color: #212121;
   font-family: "Hind", sans-serif;
@@ -17436,6 +17446,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 300;
   text-transform: uppercase;
 }
+
 .searchform__inputSearch::-ms-input-placeholder {
   color: #212121;
   font-family: "Hind", sans-serif;
@@ -17443,6 +17454,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 300;
   text-transform: uppercase;
 }
+
 .searchform__inputSearch::placeholder {
   color: #212121;
   font-family: "Hind", sans-serif;
