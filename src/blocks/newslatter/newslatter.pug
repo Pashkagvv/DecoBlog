@@ -6,8 +6,12 @@
 
 mixin newslatter(data = {})
     .newslatter&attributes(attributes)
-        h3.newslatter__title!= data.title
-        form.newslatter__form
-            input.newslatter__inputName(type="text" placeholder="Your Name")
-            input.newslatter__inputEmail(type="email" placeholder="Your Email Address")
-            button.newslatter__button(type="submit")= data.button
+        .container
+            .row
+                .col-12
+                    .newslatter__cower
+                        h3.newslatter__title!= data.title
+                        form.newslatter__form
+                            input.newslatter__inputName(type="text" placeholder="Your Name")
+                            input.newslatter__inputEmail(type="email" placeholder="Your Email Address")
+                            button.newslatter__button(type="submit")= data.button
