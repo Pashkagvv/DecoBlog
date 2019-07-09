@@ -44,6 +44,7 @@ function initBlock() {
             itemSelector: '.grid-item',
 
 
+
         });
     });
 
