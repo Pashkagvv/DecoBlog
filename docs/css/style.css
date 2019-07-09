@@ -16241,13 +16241,11 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 4px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
 }
 
 @media (max-width: 767px) {
   .newslatter__form {
     flex-direction: column;
-    align-items: center;
   }
 }
 
