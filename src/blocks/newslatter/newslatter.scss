@@ -77,23 +77,27 @@
   }
 
   &__inputName {
-    width: 100%;
+
     height: 52px;
-    margin: 10px;
+
     border: 1px solid $color-input-border;
     border-radius: 0;
-    @media (max-width: 767px){
+    @media (min-width: 991px){
       width: 100%;
+      margin: 10px;
     }
   }
 
   &__inputEmail {
 
     height: 52px;
-    margin: 10px;
-    width: 100%;
+
     border: 1px solid $color-input-border;
     border-radius: 0;
+    @media (min-width: 991px){
+      width: 100%;
+      margin: 10px;
+    }
 
   }
 
@@ -105,12 +109,16 @@
     text-transform: uppercase;
     outline: none;
     border: none;
-    width: 500px;
-    margin: 10px;
+
+
     background: $color-h3;
     height: 52px;
     @media (max-width: 767px) {
       width: 100%;
+    }
+    @media (min-width: 991px){
+      width: 500px;
+      margin: 10px;
     }
   }
 
