@@ -12,12 +12,13 @@ include ../../blocks/footer/footer.pug
 
 block page
     //- TODO: add code
-    .top
-        +header(data.top)
-        .container
+    .container-fluid
+        .top
+
+            +header(data.top)
             +banner(data.banner)
-    +newslatter(data.newslatter)
-    .container
-        +content(data.content)
+        +newslatter(data.newslatter)
+        .container
+            +content(data.content)
 
     +footer(data.footer)

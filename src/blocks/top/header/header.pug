@@ -7,31 +7,33 @@
 mixin header(data = {})
     .header&attributes(attributes)
         .container
-            .header__cower
-                nav.nav
-                    input.nav__check(type="checkbox" id="showmenu")
-                    label.nav__showmenu(for="showmenu") &#9776;
+            .row
+                .col-12
+                    .header__cower
+                        nav.nav
+                            input.nav__check(type="checkbox" id="showmenu")
+                            label.nav__showmenu(for="showmenu") &#9776;
 
-                    ul.menu
-                        label.nav__back(for="showmenu") <i class="fas fa-times"></i>
-                        li
-                            a.menu__item( href="index.html") Home
-                            li
-                                a.menu__item(href="AboutMe.html") About Me
+                            ul.menu
+                                label.nav__back(for="showmenu") <i class="fas fa-times"></i>
+                                li
+                                    a.menu__item( href="index.html") Home
+                                    li
+                                        a.menu__item(href="AboutMe.html") About Me
 
-                            li
-                                a.menu__item( href="detailPage.html") Blogs
-                            li
-                                a.menu__item(href="contactus.html") contacts
+                                    li
+                                        a.menu__item( href="detailPage.html") Blogs
+                                    li
+                                        a.menu__item(href="contactus.html") contacts
 
-                            li
-                                a.menu__item( href="#") Other
-                .header__logoWrapper
-                    img.header__logo(src="./img/Deco.png")
-                    p.header__title= data.header.title
-                .header__list
-                    a.header__social(href="#") <i class="fas fa-rss"></i>
-                    a.header__social(href="#") <i class="fab fa-twitter"></i>
-                    a.header__social(href="#") <i class="fab fa-tumblr"></i>
-                    a.header__social(href="#") <i class="fab fa-facebook-f"></i>
-                    a.header__social(href="#") <i class="fas fa-search"></i>
+                                    li
+                                        a.menu__item( href="#") Other
+                        .header__logoWrapper
+                            img.header__logo(src="./img/Deco.png")
+                            p.header__title= data.header.title
+                        .header__list
+                            a.header__social(href="#") <i class="fas fa-rss"></i>
+                            a.header__social(href="#") <i class="fab fa-twitter"></i>
+                            a.header__social(href="#") <i class="fab fa-tumblr"></i>
+                            a.header__social(href="#") <i class="fab fa-facebook-f"></i>
+                            a.header__social(href="#") <i class="fas fa-search"></i>
