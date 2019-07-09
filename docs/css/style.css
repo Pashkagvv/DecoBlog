@@ -6354,6 +6354,7 @@ readers do not read off random characters that represent icons */
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-fluid {
@@ -16571,6 +16572,20 @@ a.text-dark:hover, a.text-dark:focus {
 .content__slickImg {
   height: 100%;
   padding: 3px;
+}
+
+.content__imgbg {
+  width: 100%;
+}
+
+.content__imgnotext {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .content__imgnotext {
+    display: none;
+  }
 }
 
 /**

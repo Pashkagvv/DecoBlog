@@ -40,9 +40,9 @@
     padding: 5px;
     border: 1px solid $color-h3;
     z-index: 999;
-position: relative;
+    position: relative;
     @media (max-width: 767px) {
-     display: none;
+      display: none;
     }
 
   }
@@ -133,7 +133,7 @@ position: relative;
     @media (max-width: 767px) {
       display: none;
     }
-    @media (max-width: 991px){
+    @media (max-width: 991px) {
       display: none;
     }
   }
@@ -153,7 +153,6 @@ position: relative;
       font-size: 18px;
     }
   }
-
 
 
   &__socialLinks {
@@ -228,7 +227,8 @@ position: relative;
     margin: 15px 0;
     //width: 100%;
   }
-  .grid-sizer{
+
+  .grid-sizer {
     width: 33.333%;
   }
 
@@ -238,13 +238,12 @@ position: relative;
   }
 
 
-
   &__imgCower {
     background: $color-white;
     @media (max-width: 767px) {
       padding-bottom: 15px;
     }
-    @media (max-width: 991px){
+    @media (max-width: 991px) {
       padding-bottom: 15px;
     }
   }
@@ -270,7 +269,7 @@ position: relative;
     padding-bottom: 10px;
   }
 
-  &__audioPLayer{
+  &__audioPLayer {
     width: 100%;
     margin: 15px 0;
   }
@@ -285,7 +284,7 @@ position: relative;
 
   }
 
-  &__windowSlider{
+  &__windowSlider {
     height: 100%;
     position: absolute;
     top: 0;
@@ -294,10 +293,22 @@ position: relative;
     left: 0;
 
   }
-  &__slickImg{
-    height: 100%;
-   padding: 3px;
 
+  &__slickImg {
+    height: 100%;
+    padding: 3px;
+
+  }
+
+  &__imgbg {
+    width: 100%;
+  }
+
+  &__imgnotext {
+    width: 100%;
+    @media (max-width: 767px) {
+      display: none;
+    }
   }
 
   // Bem modifiers
