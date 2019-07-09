@@ -249,7 +249,10 @@ position: relative;
 
   &__audio {
     background: $color-white;
+  }
 
+  &__audioPLayer{
+    width: 100%;
   }
 
   &__video {

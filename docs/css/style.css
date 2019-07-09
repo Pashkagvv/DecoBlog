@@ -16514,6 +16514,10 @@ a.text-dark:hover, a.text-dark:focus {
   background: #fff;
 }
 
+.content__audioPLayer {
+  width: 100%;
+}
+
 .content__video {
   background: #fff;
 }

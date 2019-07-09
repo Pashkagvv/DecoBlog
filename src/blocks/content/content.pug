@@ -89,7 +89,7 @@ mixin content(data = {})
                                         .content__subtitle= item.subtitle
                                         .content__title= item.title
                                         .content__date= item.date
-                                        audio(controls)
+                                        audio.content__audioPLayer(controls)
                             if(item.type == 'img')
                                 .grid-item.col-md-3.col-sm-4.col-xs-6
                                     .content__imgCower
