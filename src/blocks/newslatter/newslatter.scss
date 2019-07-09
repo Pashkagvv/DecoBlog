@@ -81,28 +81,28 @@
 
     height: 52px;
     width: 100%;
-    margin: 10px;
+
     border: 1px solid $color-input-border;
     border-radius: 0;
 
-    //@media (min-width: 991px) {
-    //  width: 100%;
-    //  margin: 10px;
-    //}
+    @media (min-width: 991px) {
+      width: 100%;
+      margin: 10px;
+    }
   }
 
   &__inputEmail {
 
     height: 52px;
     width: 100%;
-    margin: 10px;
+
     border: 1px solid $color-input-border;
     border-radius: 0;
 
-    //@media (min-width: 991px) {
-    //  width: 100%;
-    //  margin: 10px;
-    //}
+    @media (min-width: 991px) {
+      width: 100%;
+      margin: 10px;
+    }
 
   }
 
@@ -117,7 +117,7 @@
     border: none;
     background: $color-h3;
     height: 52px;
-    margin: 10px;
+
       @media (min-width: 991px) {
         width: 500px;
         margin: 10px;
