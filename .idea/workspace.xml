@@ -32,10 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/top/banner/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/banner/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/top/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/header/header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,19 +78,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/top/banner/banner.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
+            <state relative-caret-position="90">
               <caret line="128" column="2" selection-start-line="128" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
             </state>
           </provider>
@@ -208,9 +205,9 @@
         <option value="$PROJECT_DIR$/src/blocks/footer/footer.scss" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.js" />
         <option value="$PROJECT_DIR$/src/blocks/top/header/header.pug" />
-        <option value="$PROJECT_DIR$/src/blocks/top/header/header.scss" />
         <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/top/header/header.scss" />
       </list>
     </option>
   </component>
@@ -396,12 +393,12 @@
       <workItem from="1562405651106" duration="8550000" />
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
-      <workItem from="1562484385358" duration="49119000" />
+      <workItem from="1562484385358" duration="49274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308463000" />
+    <option name="totallyTimeSpent" value="308618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +412,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.50502515" side_tool="true" weight="0.26928896" />
       <window_info id="npm" order="3" sideWeight="0.50511944" side_tool="true" weight="0.26701966" />
@@ -434,7 +431,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50223213" side_tool="true" weight="0.4051282" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.4051282" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.4051282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -757,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -773,8 +763,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/top/banner/banner.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="90">
           <caret line="128" column="2" selection-start-line="128" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
