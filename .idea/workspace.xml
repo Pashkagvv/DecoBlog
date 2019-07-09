@@ -32,8 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/content/content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="23" />
+              <caret line="10" column="23" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -72,13 +72,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="10" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
@@ -108,8 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pug/pages/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="360">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1944">
+              <caret line="108" column="113" selection-start-line="11" selection-start-column="20" selection-end-line="108" selection-end-column="113" />
             </state>
           </provider>
         </entry>
@@ -166,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/blocks/contactform/contactform.scss" />
         <option value="$PROJECT_DIR$/src/blocks/contactform/contactform.pug" />
         <option value="$PROJECT_DIR$/src/pug/data/pages/index.json" />
-        <option value="$PROJECT_DIR$/src/blocks/content/content.pug" />
         <option value="$PROJECT_DIR$/src/pug/pages/AboutMe.pug" />
         <option value="$PROJECT_DIR$/src/blocks/footer/footer.pug" />
         <option value="$PROJECT_DIR$/src/blocks/footer/footer.scss" />
@@ -177,10 +185,11 @@
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/src/blocks/top/header/header.pug" />
         <option value="$PROJECT_DIR$/src/sass/_grid.scss" />
-        <option value="$PROJECT_DIR$/src/pug/pages/index.pug" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.pug" />
         <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug" />
         <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" />
+        <option value="$PROJECT_DIR$/src/pug/pages/index.pug" />
+        <option value="$PROJECT_DIR$/src/blocks/content/content.pug" />
       </list>
     </option>
   </component>
@@ -382,12 +391,12 @@
       <workItem from="1562405651106" duration="8550000" />
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
-      <workItem from="1562484385358" duration="50442000" />
+      <workItem from="1562484385358" duration="51126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309786000" />
+    <option name="totallyTimeSpent" value="310470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,7 +429,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50223213" side_tool="true" weight="0.4051282" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.4051282" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" weight="0.4051282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -645,13 +654,6 @@
         <state relative-caret-position="-648" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -708,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/pages/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/top/banner/banner.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -743,24 +738,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.pug">
+    <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="251">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="10" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="10" column="23" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="108" column="113" selection-start-line="11" selection-start-column="20" selection-end-line="108" selection-end-column="113" />
         </state>
       </provider>
     </entry>

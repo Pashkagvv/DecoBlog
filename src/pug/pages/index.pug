@@ -14,11 +14,8 @@ block page
     //- TODO: add code
     .container-fluid
         .top
-
             +header(data.top)
             +banner(data.banner)
         +newslatter(data.newslatter)
-        .container
-            +content(data.content)
-
-    +footer(data.footer)
+        +content(data.content)
+        +footer(data.footer)
