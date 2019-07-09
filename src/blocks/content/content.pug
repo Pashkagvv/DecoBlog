@@ -12,7 +12,7 @@ mixin content(data = {})
                     .grid#masonry-grid
                         each item in data
                             if (item.type == 'textsocial')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__textsocial
                                         +icon('pancil')
                                         .content__subtitle= item.subtitle
@@ -30,7 +30,7 @@ mixin content(data = {})
 
 
                             if(item.type == 'text')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__text
                                         .content__subtitle= item.subtitle
                                         .content__title= item.title
@@ -38,16 +38,16 @@ mixin content(data = {})
                                         .content__description= item.description
                                         a.content__links(href='#')= item.links
                             if(item.type == 'blockqoutes')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__blockqoutes
                                         +icon('qu')
                                         .content__descriptionWhite= item.description
                                         .content__autor= item.autor
                             if(item.type == 'imgnotext')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     img.content__imgnotext(src= item.img)
                             if(item.type == 'video')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__video
                                         .content__videoArea#player
                                             +icon('video')
@@ -64,12 +64,12 @@ mixin content(data = {})
                                                 a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
 
                             if(item.type == 'link')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__link
                                         +icon('chain')
                                         a.content__linkContent(href="#")!= item.link
                             if(item.type == 'grid')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__greedCower
                                         +icon('grid')
                                         .content__windowSlider#slider-1
@@ -83,7 +83,7 @@ mixin content(data = {})
                                             img.content__slickImg(src= item.img8)
 
                             if(item.type == 'audio')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__audio
                                         +icon('audio')
                                         .content__subtitle= item.subtitle
@@ -91,7 +91,7 @@ mixin content(data = {})
                                         .content__date= item.date
                                         audio.content__audioPLayer(controls)
                             if(item.type == 'img')
-                                .grid-item.col-sm-12.col-md-2.col-lg-3
+                                .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__imgCower
                                         .content__img
                                             img.content__imgbg(src= item.img)
