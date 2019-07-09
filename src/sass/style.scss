@@ -2,12 +2,13 @@
 @import "mixins";
 @import "fonts";
 @import "base";
-@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
-@import "../../node_modules/bootstrap/scss/grid";
-@import "../../node_modules/bootstrap/scss/utilities";
+//@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+//@import "../../node_modules/bootstrap/scss/grid";
+//@import "../../node_modules/bootstrap/scss/utilities";
 @import "normalize";
 @import "../../node_modules/slick-carousel/slick/slick.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "grid";
 
 
 
@@ -44,7 +45,6 @@
   //width: 1638px;
   background: $color-body;
   width: 100%;
-
 }
 .top{
   height: 345px;
