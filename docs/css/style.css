@@ -16251,28 +16251,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .newslatter__inputName {
   height: 52px;
+  width: 100%;
+  margin: 10px;
   border: 1px solid rgba(221, 221, 221, 0.15);
   border-radius: 0;
-}
-
-@media (min-width: 991px) {
-  .newslatter__inputName {
-    width: 100%;
-    margin: 10px;
-  }
 }
 
 .newslatter__inputEmail {
   height: 52px;
+  width: 100%;
+  margin: 10px;
   border: 1px solid rgba(221, 221, 221, 0.15);
   border-radius: 0;
-}
-
-@media (min-width: 991px) {
-  .newslatter__inputEmail {
-    width: 100%;
-    margin: 10px;
-  }
 }
 
 .newslatter__button {
@@ -16282,15 +16272,11 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 400;
   text-transform: uppercase;
   outline: none;
+  width: 100%;
   border: none;
   background: #212121;
   height: 52px;
-}
-
-@media (max-width: 767px) {
-  .newslatter__button {
-    width: 100%;
-  }
+  margin: 10px;
 }
 
 @media (min-width: 991px) {

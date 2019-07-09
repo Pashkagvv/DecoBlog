@@ -33,8 +33,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/content/content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../project/css/grid.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-432" />
@@ -62,26 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="832" column="1" lean-forward="true" selection-start-line="832" selection-start-column="1" selection-end-line="832" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="91" column="52" lean-forward="true" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="274" column="18" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
+            <state relative-caret-position="-6762">
+              <caret line="625" column="20" selection-start-line="625" selection-start-column="20" selection-end-line="625" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -146,13 +147,13 @@
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.pug" />
         <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug" />
         <option value="$PROJECT_DIR$/src/pug/pages/index.pug" />
-        <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" />
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/../Экзамен/css/grid.css" />
         <option value="$PROJECT_DIR$/src/blocks/content/content.js" />
         <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
-        <option value="$PROJECT_DIR$/src/sass/_grid.scss" />
         <option value="$PROJECT_DIR$/src/blocks/content/content.pug" />
+        <option value="$PROJECT_DIR$/src/sass/_grid.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" />
       </list>
     </option>
   </component>
@@ -194,7 +195,7 @@
               <item name="MyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="newslatter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -340,12 +341,12 @@
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
       <workItem from="1562484385358" duration="56667000" />
-      <workItem from="1562661940187" duration="6390000" />
+      <workItem from="1562661940187" duration="8277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322401000" />
+    <option name="totallyTimeSpent" value="324288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -670,10 +664,24 @@
     <entry file="file://$PROJECT_DIR$/../Экзамен/css/grid.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="121" column="5" selection-start-line="115" selection-start-column="4" selection-end-line="121" selection-end-column="5" />
+        <state relative-caret-position="719">
+          <caret line="274" column="18" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -682,24 +690,17 @@
         <state relative-caret-position="-432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="274" column="18" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="832" column="1" lean-forward="true" selection-start-line="832" selection-start-column="1" selection-end-line="832" selection-end-column="1" />
+        <state relative-caret-position="-6762">
+          <caret line="625" column="20" selection-start-line="625" selection-start-column="20" selection-end-line="625" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
+    <entry file="file://$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="91" column="52" lean-forward="true" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
+        <state relative-caret-position="161">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
         </state>
       </provider>
     </entry>
