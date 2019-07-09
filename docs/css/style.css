@@ -16719,6 +16719,23 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 600;
 }
 
+.banner__sliderDescription {
+  text-shadow: 1px 1.7px 0 rgba(0, 0, 0, 0.44);
+  color: #fff;
+  font-family: "Hind", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .banner__sliderDescription {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
 .banner__slider {
   width: 100%;
 }
