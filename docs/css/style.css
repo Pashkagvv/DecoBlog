@@ -16391,6 +16391,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .content__linkContent {
   color: #fff;
+  word-break: break-word;
   font-family: "Hind", sans-serif;
   font-size: 17px;
   font-weight: 300;
