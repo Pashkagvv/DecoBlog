@@ -592,7 +592,6 @@ pre code {
 .container-fluid {
   width: 100%;
 
-
 }
 
 .row {
@@ -600,8 +599,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .no-gutters {
