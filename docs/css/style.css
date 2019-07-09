@@ -16141,6 +16141,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 23px;
 }
 
+@media (max-width: 767px) {
+  .newslatter {
+    padding-top: 15px;
+  }
+}
+
 .newslatter__inputName::-webkit-input-placeholder, .newslatter__inputEmail::-webkit-input-placeholder {
   padding-left: 30px;
   color: #999;
@@ -16279,6 +16285,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 10px;
   background: #212121;
   height: 52px;
+}
+
+@media (max-width: 767px) {
+  .newslatter__button {
+    width: 100%;
+  }
 }
 
 /**

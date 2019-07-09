@@ -6,6 +6,9 @@
   // TODO: add code
   padding-top: 180px;
   padding-bottom: 23px;
+  @media (max-width: 767px) {
+    padding-top: 15px;
+  }
 
   // @media queries
   // TODO: add code
@@ -106,6 +109,9 @@
     margin: 10px;
     background: $color-h3;
     height: 52px;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
   }
 
   // Bem modifiers
