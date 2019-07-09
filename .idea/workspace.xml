@@ -33,10 +33,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/content/content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_grid.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="1006" column="11" selection-start-line="1006" selection-start-column="11" selection-end-line="1006" selection-end-column="11" />
+            <state relative-caret-position="72">
+              <caret line="832" column="1" lean-forward="true" selection-start-line="832" selection-start-column="1" selection-end-line="832" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+            <state relative-caret-position="-127">
+              <caret line="91" column="52" lean-forward="true" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -343,12 +340,12 @@
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
       <workItem from="1562484385358" duration="56667000" />
-      <workItem from="1562661940187" duration="5849000" />
+      <workItem from="1562661940187" duration="6390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321860000" />
+    <option name="totallyTimeSpent" value="322401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,7 +359,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.50502515" side_tool="true" weight="0.26928896" />
       <window_info id="npm" order="3" sideWeight="0.50511944" side_tool="true" weight="0.26701966" />
@@ -381,7 +378,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50223213" side_tool="true" weight="0.4051282" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.4051282" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.4051282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -694,15 +691,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="1006" column="11" selection-start-line="1006" selection-start-column="11" selection-end-line="1006" selection-end-column="11" />
+        <state relative-caret-position="72">
+          <caret line="832" column="1" lean-forward="true" selection-start-line="832" selection-start-column="1" selection-end-line="832" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        <state relative-caret-position="-127">
+          <caret line="91" column="52" lean-forward="true" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
         </state>
       </provider>
     </entry>

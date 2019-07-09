@@ -1004,7 +1004,7 @@ pre code {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1176,7 +1176,7 @@ pre code {
   }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1348,7 +1348,7 @@ pre code {
   }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1200px) {
   .col-xl {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;

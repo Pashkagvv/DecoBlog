@@ -7291,7 +7291,7 @@ pre code {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
@@ -7433,7 +7433,7 @@ pre code {
   }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -7575,7 +7575,7 @@ pre code {
   }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1200px) {
   .col-xl {
     flex-basis: 0;
     flex-grow: 1;
