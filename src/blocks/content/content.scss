@@ -80,10 +80,11 @@ position: relative;
   &__description {
     text-align: center;
     color: $color-description;
-    font-family: $font-family-Hind;
+    font-family: Hind;
     font-size: 15px;
     font-weight: 300;
     margin: 16px 18px 0 20px;
+    line-height: 1.9;
     letter-spacing: 0.1em;
   }
 
@@ -107,6 +108,8 @@ position: relative;
 
   &__linkContent {
     color: $color-white;
+
+
     font-family: $font-family-Hind;
     font-size: 17px;
     font-weight: 300;
@@ -121,7 +124,11 @@ position: relative;
     padding-top: 19px;
     padding-bottom: 16px;
     display: flex;
+    padding-left: 15px;
+
+    padding-right: 15px;
   }
+
 
   &__comment {
     color: $color-placeholder;
@@ -132,20 +139,18 @@ position: relative;
     letter-spacing: 0.1em;
 
     i {
-      margin-left: 26px;
+
       color: $color-h3;
       font-size: 18px;
     }
   }
 
-  &__socialWrapper {
-    margin-right: 22px;
-  }
+
 
   &__socialLinks {
     color: $color-description;
     font-size: 14px;
-    margin: 0 7px;
+    margin: 0 3px;
   }
 
 

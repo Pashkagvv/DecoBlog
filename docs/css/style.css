@@ -10851,7 +10851,7 @@ readers do not read off random characters that represent icons */
   z-index: 997;
   display: inline-block;
   margin-left: 0px;
-  padding: 8px 20px 2px 19px;
+  padding: 8px 20px 10px 19px;
   border-left: 1px solid #3c3c3c;
   border-right: 1px solid #3c3c3c;
   top: 2px;
@@ -11231,10 +11231,11 @@ readers do not read off random characters that represent icons */
 .content__description {
   text-align: center;
   color: #464646;
-  font-family: "Hind", sans-serif;
+  font-family: Hind;
   font-size: 15px;
   font-weight: 300;
   margin: 16px 18px 0 20px;
+  line-height: 1.9;
   letter-spacing: 0.1em;
 }
 
@@ -11271,6 +11272,8 @@ readers do not read off random characters that represent icons */
   padding-top: 19px;
   padding-bottom: 16px;
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .content__comment {
@@ -11283,19 +11286,14 @@ readers do not read off random characters that represent icons */
 }
 
 .content__comment i {
-  margin-left: 26px;
   color: #212121;
   font-size: 18px;
-}
-
-.content__socialWrapper {
-  margin-right: 22px;
 }
 
 .content__socialLinks {
   color: #464646;
   font-size: 14px;
-  margin: 0 7px;
+  margin: 0 3px;
 }
 
 .content__iconWhite i {
@@ -11525,16 +11523,6 @@ readers do not read off random characters that represent icons */
   font-family: "Hind", sans-serif;
   font-size: 18px;
   font-weight: 600;
-}
-
-.banner__sliderDescription {
-  text-shadow: 1px 1.7px 0 rgba(0, 0, 0, 0.44);
-  color: #fff;
-  font-family: "Hind", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 50px;
-  text-transform: uppercase;
 }
 
 .banner__slider {
