@@ -32,23 +32,24 @@
 
   .nav {user-select: none;
   z-index: 999;
+    border-left: 1px solid $color-header-border;
+    border-right: 1px solid $color-header-border;
   }
 
   .nav__showmenu {
     position: relative;
     z-index: 997;
     display: inline-block;
-    margin-left: 0px;
-    padding: 8px 20px 10px 19px;
-    border-left: 1px solid $color-header-border;
-    border-right: 1px solid $color-header-border;
+
+    padding: 8px 20px 0 19px;
+
     top: 2px;
     font-size: 23px;
     color: $color-white;
 
     transition: all 0.3s ease;
-    margin-bottom: 0px;
-    bottom: 0px;
+
+
 
   }
 
@@ -173,6 +174,7 @@
   &__logoWrapper {
     display: flex;
     justify-content: center;
+    padding-left: 150px;
     @media (max-width: 767px){
       margin: 0 auto;
     }

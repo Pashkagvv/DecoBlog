@@ -18801,22 +18801,19 @@ a.text-dark:hover, a.text-dark:focus {
       -ms-user-select: none;
           user-select: none;
   z-index: 999;
+  border-left: 1px solid #3c3c3c;
+  border-right: 1px solid #3c3c3c;
 }
 
 .header .nav__showmenu {
   position: relative;
   z-index: 997;
   display: inline-block;
-  margin-left: 0px;
-  padding: 8px 20px 10px 19px;
-  border-left: 1px solid #3c3c3c;
-  border-right: 1px solid #3c3c3c;
+  padding: 8px 20px 0 19px;
   top: 2px;
   font-size: 23px;
   color: #fff;
   transition: all 0.3s ease;
-  margin-bottom: 0px;
-  bottom: 0px;
 }
 
 .header .nav__back {
@@ -18953,6 +18950,7 @@ a.text-dark:hover, a.text-dark:focus {
 .header__logoWrapper {
   display: flex;
   justify-content: center;
+  padding-left: 150px;
 }
 
 @media (max-width: 767px) {

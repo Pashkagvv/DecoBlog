@@ -33,24 +33,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contactus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/detailPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/detailPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/catagories/catagories.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/catagories/catagories.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/catagories/catagories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/catagories/catagories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/footer/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/searchform/searchform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/searchform/searchform.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/sidebar/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/sidebar/sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/top/banner/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/banner/banner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/top/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/data/globals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/data/globals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="72">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -171,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.scss" />
         <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" />
-        <option value="$PROJECT_DIR$/src/blocks/top/header/header.scss" />
         <option value="$PROJECT_DIR$/src/blocks/searchform/searchform.scss" />
         <option value="$PROJECT_DIR$/src/blocks/catagories/catagories.pug" />
         <option value="$PROJECT_DIR$/src/blocks/catagories/catagories.scss" />
@@ -180,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/src/pug/data/globals.json" />
         <option value="$PROJECT_DIR$/src/blocks/footer/footer.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/top/header/header.scss" />
       </list>
     </option>
   </component>
@@ -229,6 +223,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="sidebar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -374,12 +383,12 @@
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
       <workItem from="1562484385358" duration="56667000" />
-      <workItem from="1562661940187" duration="37647000" />
+      <workItem from="1562661940187" duration="39011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353658000" />
+    <option name="totallyTimeSpent" value="355022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -731,8 +733,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="72">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
         </state>
       </provider>
     </entry>
