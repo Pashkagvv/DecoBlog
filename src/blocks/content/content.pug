@@ -45,7 +45,8 @@ mixin content(data = {})
                                         .content__autor= item.autor
                             if(item.type == 'imgnotext')
                                 .grid-item.col-sm-12.col-md-6.col-lg-4
-                                    img.content__imgnotext(src= item.img)
+                                    .content__imgnotext
+                                        img(src= item.img)
                             if(item.type == 'video')
                                 .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__video

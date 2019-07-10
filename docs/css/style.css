@@ -19163,7 +19163,6 @@ a.text-dark:hover, a.text-dark:focus {
   border: 1px solid rgba(221, 221, 221, 0.15);
   box-shadow: 0 0 0 rgba(232, 232, 232, 0.11);
   background: #fff;
-  margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -19360,7 +19359,6 @@ a.text-dark:hover, a.text-dark:focus {
   height: 177px;
   background: #212429;
   text-align: center;
-  margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -19401,7 +19399,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .content__text {
   background: url("../img/Layer43.jpg");
-  margin-top: 20px;
   padding-top: 19px;
   padding-bottom: 1px;
   border: 1px solid rgba(221, 221, 221, 0.15);
@@ -19411,14 +19408,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .content__greedCower {
-  height: 340px;
+  height: 310px;
   position: relative;
 }
 
 .content__audio {
   background: #fff;
   padding-bottom: 10px;
-  margin-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -19430,13 +19426,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 .content__video {
   background: #fff;
-  margin-top: 20px;
 }
 
 .content__blockqoutes {
   background: #212429;
   padding-bottom: 10px;
-  margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -19461,16 +19455,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .content__imgnotext {
   width: 100%;
-}
-
-@media (max-width: 767px) {
-  .content__imgnotext {
-    display: none;
-  }
-}
-
-.content__imgnotext {
-  margin-top: 20px;
 }
 
 /**
@@ -20379,19 +20363,57 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0.7;
 }
 
+.contactform__name::-webkit-input-placeholder, .contactform__email::-webkit-input-placeholder, .contactform__website::-webkit-input-placeholder, .contactform__message::-webkit-input-placeholder {
+  color: #424242;
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.contactform__name::-moz-placeholder, .contactform__email::-moz-placeholder, .contactform__website::-moz-placeholder, .contactform__message::-moz-placeholder {
+  color: #424242;
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.contactform__name:-ms-input-placeholder, .contactform__email:-ms-input-placeholder, .contactform__website:-ms-input-placeholder, .contactform__message:-ms-input-placeholder {
+  color: #424242;
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.contactform__name::-ms-input-placeholder, .contactform__email::-ms-input-placeholder, .contactform__website::-ms-input-placeholder, .contactform__message::-ms-input-placeholder {
+  color: #424242;
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.contactform__name::placeholder, .contactform__email::placeholder, .contactform__website::placeholder, .contactform__message::placeholder {
+  color: #424242;
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .contactform__form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -10px;
-  padding-left: 15px;
   margin-top: 20px;
 }
 
 .contactform__name {
   width: 47%;
-  margin: 0 10px;
+  margin-right: 10px;
   height: 50px;
   background-color: #fff;
   box-shadow: 0.6px 0.8px 1px rgba(234, 234, 235, 0.75);
@@ -20404,12 +20426,13 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 767px) {
   .contactform__name {
     width: 100%;
+    margin-right: 0;
   }
 }
 
 .contactform__email {
   width: 47%;
-  margin: 0 10px;
+  margin-left: 10px;
   height: 50px;
   background-color: #fff;
   box-shadow: 0.6px 0.8px 1px rgba(234, 234, 235, 0.75);
@@ -20422,12 +20445,12 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 767px) {
   .contactform__email {
     width: 100%;
+    margin-left: 0;
   }
 }
 
 .contactform__website {
   width: 100%;
-  margin: 0 10px;
   height: 50px;
   background-color: #fff;
   box-shadow: 0.6px 0.8px 1px rgba(234, 234, 235, 0.75);
@@ -20435,11 +20458,15 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 15px;
+  color: #424242;
+  font-family: "Hind", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .contactform__message {
   width: 100%;
-  margin: 0 10px;
   min-height: 270px;
   background-color: #fff;
   box-shadow: 0.6px 0.8px 1px rgba(234, 234, 235, 0.75);
@@ -20466,7 +20493,6 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0 10px;
   padding-right: 20px;
   padding-left: 20px;
 }

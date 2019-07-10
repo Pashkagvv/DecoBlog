@@ -76,14 +76,7 @@ function initBlock() {
         speed: 500,
         autoplay: true,
         fade: true,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-        ]
+
     });
 
 }
