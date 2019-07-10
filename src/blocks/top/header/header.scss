@@ -46,7 +46,7 @@
     font-size: 23px;
     color: $color-white;
 
-
+    transition: all 0.3s ease;
     margin-bottom: 0px;
     bottom: 0px;
 
@@ -111,6 +111,7 @@
     text-align: center;
     text-decoration: none;
     color: #fff;
+    transition:all 0.3s ease;
   }
 
   .menu__submenu .menu__item {color: #000;}
@@ -120,7 +121,7 @@
     bottom: 0;
   }
 
-  .menu__item:hover,.nav__showmenu:hover,.menu__showsub:hover {opacity: 0.7;}
+  .header__social i:hover,.menu__item:hover,.nav__back i:hover,.nav__showmenu:hover,.menu__showsub:hover {opacity: 0.7;}
   .menu::-webkit-scrollbar {display: none;}
   .nav__check:checked+.nav__showmenu {color:#fff;}
   .menu__check:checked~.menu__submenu {max-height: 100vh;}
@@ -143,6 +144,7 @@
       padding: 19px 20px 20px 19px;
       border-left: 1px solid $color-header-border;
       border-right: 1px solid $color-header-border;
+      transition:all 0.3s ease;
     }
 
   }

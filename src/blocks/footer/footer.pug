@@ -16,24 +16,26 @@ mixin footer(data = {})
                             img.footer__img(src= item.img)
                         if (item.title == 'latest tweets')
                             h3.footer__title= item.title
-                            p.footer__subtitle= item.subtitle
-                            p.footer__description= item.description
-                            p.footer__subtitle= item.subtitle
-                            p.footer__description2= item.description2
+                            a.footer__tweeterLink(href="#")
+                                p.footer__subtitle= item.subtitle
+                                p.footer__description= item.description
+                            a.footer__tweeterLink(href="#")
+                                p.footer__subtitle= item.subtitle
+                                p.footer__description2= item.description2
                         if (item.title == 'Follow me instagram')
                             h3.footer__title= item.title
                             .footer__imgGalery
-                                a(href="#")
+                                a.footer__imgGaleryLink(href="#")
                                     img.footer__galeryItem(src= item.slide1)
-                                a(href="#")
+                                a.footer__imgGaleryLink(href="#")
                                     img.footer__galeryItem(src= item.slide2)
-                                a(href="#")
+                                a.footer__imgGaleryLink(href="#")
                                     img.footer__galeryItem(src= item.slide3)
-                                a(href="#")
+                                a.footer__imgGaleryLink(href="#")
                                     img.footer__galeryItem(src= item.slide4)
-                                a(href="#")
+                                a.footer__imgGaleryLink(href="#")
                                     img.footer__galeryItem(src= item.slide5)
-                                a(href="#")
+                                a.footer__imgGaleryLink(href="#")
                                     img.footer__galeryItem(src= item.slide6)
                         if (item.title == 'latest comment')
                             h3.footer__title= item.title

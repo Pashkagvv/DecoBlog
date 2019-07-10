@@ -12,7 +12,19 @@
 
   // Pseudo-classes and pseudo-elements
   // TODO: add code
+&__imgGaleryLink:hover{
+  transform: scale(0.9);
+  opacity: 0.7;
+}
+  &__tweeterLink:hover{
+    opacity: 0.7;
+    text-decoration: none;
 
+  }
+  &__subtitle:hover{
+    opacity: 0.7;
+
+  }
   // Nested selectors
   // TODO: add code
 
@@ -52,6 +64,7 @@
     font-size: 14px;
     font-family: $font-family-Hind;
     font-weight: 300;
+    transition: all 0.4s ease;
   }
 
   &__autor {
@@ -66,6 +79,12 @@
     font-family: $font-family-Hind;
     font-size: 14px;
     font-weight: 400;
+  }
+  &__imgGaleryLink{
+    transition: all 0.5s ease;
+  }
+  &__tweeterLink{
+    transition: all 0.4s ease;
   }
 
   // Bem modifiers

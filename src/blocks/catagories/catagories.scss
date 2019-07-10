@@ -4,13 +4,20 @@
 .catagories {
     // Selector styles
     // TODO: add code
-
+  background: $color-white;
+  padding: 20px;
     // @media queries
     // TODO: add code
 
     // Pseudo-classes and pseudo-elements
     // TODO: add code
-
+  &__ListItem:hover{
+    background: #e3e3e5;
+  }
+&__ListLink:hover{
+  opacity: 0.7;
+  text-decoration: none;
+}
     // Nested selectors
     // TODO: add code
 
@@ -32,6 +39,9 @@
   &__ListItem{
     padding-top: 15px;
     border-top: 1px solid $color-link-border;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.4s ease;
   }
   &__Title{
     color: $color-h3;
@@ -40,8 +50,7 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
   }
     // Bem modifiers
