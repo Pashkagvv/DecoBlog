@@ -18977,7 +18977,7 @@ a.text-dark:hover, a.text-dark:focus {
  * Styles for the newslatter block.
  */
 .newslatter {
-  padding-top: 180px;
+  padding-top: 30px;
   padding-bottom: 23px;
 }
 
@@ -19144,7 +19144,7 @@ a.text-dark:hover, a.text-dark:focus {
  */
 .content {
   width: 100%;
-  padding-top: 69px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
@@ -19367,7 +19367,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .content .grid-item {
   margin: 15px 0;
-  padding: 10px;
 }
 
 .content .grid-sizer {
@@ -19616,6 +19615,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   right: 0;
   left: 0;
+  background: #212429;
 }
 
 .banner__img {
@@ -20309,13 +20309,30 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Styles for the map block.
  */
+.map {
+  margin-top: 20px;
+}
+
 .map #map {
   width: 567px;
   height: 400px;
 }
 
+@media (max-width: 767px) {
+  .map #map {
+    width: 100%;
+  }
+}
+
 .map__cower {
   display: flex;
+}
+
+@media (max-width: 767px) {
+  .map__cower {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .map__contentCower {
@@ -20347,6 +20364,14 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Styles for the contactform block.
  */
+.contactform {
+  margin-bottom: 20px;
+}
+
+.contactform__button:hover {
+  opacity: 0.7;
+}
+
 .contactform__form {
   display: flex;
   flex-direction: row;
@@ -20369,6 +20394,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding-left: 15px;
 }
 
+@media (max-width: 767px) {
+  .contactform__name {
+    width: 100%;
+  }
+}
+
 .contactform__email {
   width: 47%;
   margin: 0 10px;
@@ -20379,6 +20410,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .contactform__email {
+    width: 100%;
+  }
 }
 
 .contactform__website {
@@ -20396,7 +20433,7 @@ a.text-dark:hover, a.text-dark:focus {
 .contactform__message {
   width: 100%;
   margin: 0 10px;
-  min-height: 300px;
+  min-height: 200px;
   background-color: #fff;
   box-shadow: 0.6px 0.8px 1px rgba(234, 234, 235, 0.75);
   border: none;
@@ -20404,6 +20441,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 10px;
   padding-left: 15px;
   padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .contactform__message {
+    min-height: 100px;
+  }
 }
 
 .contactform__button {
@@ -20561,8 +20604,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .top {
-  height: 345px;
-  background: #212429;
   width: 100%;
 }
 

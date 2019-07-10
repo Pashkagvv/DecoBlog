@@ -43,9 +43,26 @@ function initBlock() {
         vertical: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dotsClass: "my-dots",
+        dotsClass: 'my-dots',
         nextArrow: $('.next-arrow'),
         prevArrow: $('.prev-arrow'),
+	    responsive: [
+		    {
+			    breakpoint: 992,
+			    settings: {
+				    dots: false
+			    }
+		    },
+		    {
+			    breakpoint: 575,
+			    settings: {
+				    slidesToShow: 1,
+				    slidesToScroll: 1,
+				    arrows: false,
+				    dots: false
+			    }
+		    }
+	    ]
 
     });
     return true;

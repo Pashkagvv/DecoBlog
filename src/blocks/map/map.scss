@@ -4,7 +4,7 @@
 .map {
     // Selector styles
     // TODO: add code
-
+margin-top: 20px;
     // @media queries
     // TODO: add code
 
@@ -16,11 +16,18 @@
 #map{
   width: 567px;
   height: 400px;
+  @media (max-width: 767px){
+    width: 100%;
+  }
 }
     // BEM elements
     // TODO: add code
 &__cower{
   display: flex;
+  @media (max-width: 767px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
   &__contentCower{
     padding: 20px;

@@ -14,10 +14,10 @@ block page
     .blogs
         .container
             .row
-                .col-9
+                .col-md-12.col-lg-8
                     +map(data.map)
                     +contactform(data.contactform)
-                .col-3
+                .col-md-12.col-lg-4
                     +searchform(data.searchform)
                     +sidebar(data.sidebar)
     +footer(data.footer)

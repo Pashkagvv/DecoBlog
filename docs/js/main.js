@@ -1574,6 +1574,8 @@ function initBlock() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 /**
  * @file Implementation of the map block
  */
@@ -1606,13 +1608,124 @@ function initBlock() {
 
   GoogleMapsLoader.KEY = 'AIzaSyBQDEK_bp8E3TJz1Sg1VMqF7jn8J3Z7Haw';
   GoogleMapsLoader.load(function (google) {
-    new google.maps.Map(document.getElementById('map'), {
+    var _ref;
+
+    new google.maps.Map(document.getElementById('map'), (_ref = {
       center: {
         lat: lat,
         lng: lng
       },
+      disableDefaultUI: true,
       zoom: 16
-    });
+    }, _defineProperty(_ref, "center", {
+      lat: 40.674,
+      lng: -73.945
+    }), _defineProperty(_ref, "zoom", 12), _defineProperty(_ref, "styles", [{
+      elementType: 'geometry',
+      stylers: [{
+        color: '#242f3e'
+      }]
+    }, {
+      elementType: 'labels.text.stroke',
+      stylers: [{
+        color: '#242f3e'
+      }]
+    }, {
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#746855'
+      }]
+    }, {
+      featureType: 'administrative.locality',
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#d59563'
+      }]
+    }, {
+      featureType: 'poi',
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#d59563'
+      }]
+    }, {
+      featureType: 'poi.park',
+      elementType: 'geometry',
+      stylers: [{
+        color: '#263c3f'
+      }]
+    }, {
+      featureType: 'poi.park',
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#6b9a76'
+      }]
+    }, {
+      featureType: 'road',
+      elementType: 'geometry',
+      stylers: [{
+        color: '#38414e'
+      }]
+    }, {
+      featureType: 'road',
+      elementType: 'geometry.stroke',
+      stylers: [{
+        color: '#212a37'
+      }]
+    }, {
+      featureType: 'road',
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#9ca5b3'
+      }]
+    }, {
+      featureType: 'road.highway',
+      elementType: 'geometry',
+      stylers: [{
+        color: '#746855'
+      }]
+    }, {
+      featureType: 'road.highway',
+      elementType: 'geometry.stroke',
+      stylers: [{
+        color: '#1f2835'
+      }]
+    }, {
+      featureType: 'road.highway',
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#f3d19c'
+      }]
+    }, {
+      featureType: 'transit',
+      elementType: 'geometry',
+      stylers: [{
+        color: '#2f3948'
+      }]
+    }, {
+      featureType: 'transit.station',
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#d59563'
+      }]
+    }, {
+      featureType: 'water',
+      elementType: 'geometry',
+      stylers: [{
+        color: '#17263c'
+      }]
+    }, {
+      featureType: 'water',
+      elementType: 'labels.text.fill',
+      stylers: [{
+        color: '#515c6d'
+      }]
+    }, {
+      featureType: 'water',
+      elementType: 'labels.text.stroke',
+      stylers: [{
+        color: '#17263c'
+      }]
+    }]), _ref));
     marker = new google.maps.Marker({
       position: {
         lat: lat,
@@ -1740,9 +1853,23 @@ function initBlock() {
     vertical: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dotsClass: "my-dots",
+    dotsClass: 'my-dots',
     nextArrow: $('.next-arrow'),
-    prevArrow: $('.prev-arrow')
+    prevArrow: $('.prev-arrow'),
+    responsive: [{
+      breakpoint: 992,
+      settings: {
+        dots: false
+      }
+    }, {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false
+      }
+    }]
   });
   return true;
 } // ---------------------------- END PUBLIC METHODS ----------------------------
