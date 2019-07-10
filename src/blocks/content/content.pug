@@ -96,17 +96,18 @@ mixin content(data = {})
                                         .content__img
                                             img.content__imgbg(src= item.img)
                                         +icon('image')
-                                        .content__subtitle= item.subtitle
-                                        .content__title= item.title
-                                        .content__date= item.date
-                                        a.content__links(href='#')= item.links
-                                        .content__post1-footer
-                                            a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
-                                            .content__socialWrapper
-                                                a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
-                                                a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
+                                        .content__wrapper
+                                            .content__subtitle= item.subtitle
+                                            .content__title= item.title
+                                            .content__date= item.date
+                                            a.content__links(href='#')= item.links
+                                            .content__post1-footer
+                                                a.content__comment(href="#") <i class="fas fa-comments"></i> no comment
+                                                .content__socialWrapper
+                                                    a.content__socialLinks(href="#") <i class="fas fa-basketball-ball"></i>
+                                                    a.content__socialLinks(href="#") <i class="fab fa-facebook-f"></i>
+                                                    a.content__socialLinks(href="#") <i class="fab fa-twitter"></i>
+                                                    a.content__socialLinks(href="#") <i class="fab fa-pinterest"></i>
 
 
 

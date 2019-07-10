@@ -255,12 +255,14 @@
     display: block;
     margin: 0 auto;
   }
-
+&__wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
   &__imgCower {
     background: $color-white;
-    padding-left: 10px;
-    padding-right: 10px;
+
     @media (max-width: 767px) {
       padding-bottom: 15px;
     }
@@ -338,6 +340,9 @@
     @media (max-width: 767px) {
       display: none;
     }
+  }
+  &__imgnotext{
+    margin-top: 20px;
   }
 
   // Bem modifiers

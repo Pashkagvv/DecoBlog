@@ -19378,10 +19378,13 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0 auto;
 }
 
-.content__imgCower {
-  background: #fff;
+.content__wrapper {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.content__imgCower {
+  background: #fff;
 }
 
 @media (max-width: 767px) {
@@ -19464,6 +19467,10 @@ a.text-dark:hover, a.text-dark:focus {
   .content__imgnotext {
     display: none;
   }
+}
+
+.content__imgnotext {
+  margin-top: 20px;
 }
 
 /**
@@ -20433,7 +20440,7 @@ a.text-dark:hover, a.text-dark:focus {
 .contactform__message {
   width: 100%;
   margin: 0 10px;
-  min-height: 200px;
+  min-height: 270px;
   background-color: #fff;
   box-shadow: 0.6px 0.8px 1px rgba(234, 234, 235, 0.75);
   border: none;
