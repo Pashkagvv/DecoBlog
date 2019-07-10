@@ -19660,6 +19660,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .footer__description2, .footer__description {
