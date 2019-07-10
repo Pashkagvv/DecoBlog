@@ -18,13 +18,14 @@ block page
     .blogs
         .container
             .row
-                .col-9
+                .col-md-12.col-lg-8
                     +betheone(data.betheone)
                     +allpost(data.allpost)
-                    +recomposts(data.recomposts)
-                .col-3
+
+                .col-md-12.col-lg-4
                     +searchform(data.searchform)
                     +sidebargallery(data.sidebargallery)
                     +catagories(data.catagories)
                     +sidebar(data.sidebar)
+    +recomposts(data.recomposts)
     +footer(data.footer)

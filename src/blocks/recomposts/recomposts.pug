@@ -6,14 +6,17 @@
 
 mixin recomposts(data = {})
     .recomposts&attributes(attributes)
-        .recomposts__cower
-            p.recomposts__title= data.title
-            .recomposts__sliderCower
-                .recomposts__slider
-                    each item in data.posts
-                        a.recomposts__link(href="#")
-                            img.recomposts__img(src= item.img)
-                            p.recomposts__subtitle= item.subtitle
-            .recomposts__arrowsCower
-                img.prev-arrow(src="./img/Down.png", alt="Next")
-                img.next-arrow(src="./img/Top.png", alt="Prev")
+        .container
+            .row
+                .col-12
+                    .recomposts__cower
+                        p.recomposts__title= data.title
+                        .recomposts__sliderCower
+                            .recomposts__slider
+                                each item in data.posts
+                                    a.recomposts__link(href="#")
+                                        img.recomposts__img(src= item.img)
+                                        p.recomposts__subtitle= item.subtitle
+                        .recomposts__arrowsCower
+                            img.prev-arrow(src="./img/Down.png", alt="Next")
+                            img.next-arrow(src="./img/Top.png", alt="Prev")

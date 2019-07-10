@@ -18787,6 +18787,10 @@ a.text-dark:hover, a.text-dark:focus {
   justify-content: space-between;
 }
 
+.header .fa-search {
+  border-right: 1px solid #3c3c3c;
+}
+
 .header input {
   display: none;
 }
@@ -18919,7 +18923,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
   padding: 19px 20px 20px 19px;
   border-left: 1px solid #3c3c3c;
-  border-right: 1px solid #3c3c3c;
   transition: all 0.3s ease;
 }
 
@@ -19869,8 +19872,12 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Styles for the betheone block.
  */
+.betheone {
+  padding-top: 20px;
+}
+
 .betheone__arrowLeftLink:hover, .betheone__arrowRightLink:hover {
-  background: #3a3c49;
+  opacity: 0.7;
   text-decoration: none;
   color: #fff;
 }
@@ -19971,11 +19978,19 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: 20px;
 }
 
+.betheone__arrowRightLink {
+  margin-left: 5px;
+}
+
+.betheone__arrowLeftLink {
+  margin-right: 5px;
+}
+
 .betheone__arrowLeftLink, .betheone__arrowRightLink {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #000;
-  margin: 10px;
+  transition: all 0.4s ease;
   color: #fff;
   font-family: "Hind", sans-serif;
   font-size: 14px;
@@ -19983,6 +19998,13 @@ a.text-dark:hover, a.text-dark:focus {
   text-transform: uppercase;
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 575px) {
+  .betheone__arrowLeftLink, .betheone__arrowRightLink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .betheone__footerCommentCower, .betheone__footerAverageCower, .betheone__socialCower {
@@ -19994,6 +20016,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .betheone__socialLinks {
@@ -20024,12 +20047,18 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Styles for the allpost block.
  */
+.allpost__listItemLink:hover {
+  opacity: 0.7;
+  background: #e3e3e5;
+  text-decoration: none;
+}
+
 .allpost__wrapper {
   display: flex;
   background-color: #fff;
   border: 1px solid rgba(221, 221, 221, 0.15);
   box-shadow: 0 0 0 rgba(213, 213, 213, 0.75);
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 .allpost__topCower {
@@ -20042,6 +20071,18 @@ a.text-dark:hover, a.text-dark:focus {
 .allpost__contentCower {
   width: 100%;
   padding: 30px 20px;
+}
+
+@media (max-width: 575px) {
+  .allpost__contentCower {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .allpost__img {
+    display: none;
+  }
 }
 
 .allpost__autor {
@@ -20071,7 +20112,7 @@ a.text-dark:hover, a.text-dark:focus {
 .allpost__ul {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .allpost__listItemLink {
@@ -20079,23 +20120,35 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: 0 0 0 rgba(232, 232, 232, 0.11);
   border: 1px solid rgba(221, 221, 221, 0.15);
   background: #fff;
+  transition: all 0.4s ease;
 }
 
 .allpost__social {
-  padding: 15px;
-  padding-left: 22px;
-  width: 60px;
+  padding: 10px 15px;
+  margin-bottom: 0;
   border-right: 1px solid rgba(221, 221, 221, 0.15);
-  margin: 0;
   color: #464646;
   font-size: 18px;
   font-weight: 400;
 }
 
+@media (max-width: 767px) {
+  .allpost__social {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .allpost__social {
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 .allpost__linkContent {
-  padding: 15px 30px;
-  margin: 0;
-  width: 203px;
+  padding: 13px 20px 10px 20px;
+  margin-bottom: 0;
   color: #999;
   font-family: "Hind", sans-serif;
   font-size: 16px;
@@ -20103,9 +20156,30 @@ a.text-dark:hover, a.text-dark:focus {
   text-transform: uppercase;
 }
 
+@media (max-width: 767px) {
+  .allpost__linkContent {
+    display: block;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .allpost__linkContent {
+    display: none;
+  }
+}
+
 /**
  * Styles for the sidebargallery block.
  */
+.sidebargallery {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fff;
+}
+
 .sidebargallery__img {
   width: 100%;
 }
@@ -20157,6 +20231,7 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: 0 0 0 rgba(213, 213, 213, 0.75);
   padding: 20px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .recomposts__img {
@@ -20444,11 +20519,6 @@ a.text-dark:hover, a.text-dark:focus {
   height: 345px;
   background: #212429;
   width: 100%;
-}
-
-.blogs {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
