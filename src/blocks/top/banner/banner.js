@@ -39,7 +39,7 @@ function initBlock() {
         infinite: true,
         autoplay: true,
         arrows: true,
-        dots: true,
+        dots: false,
         vertical: true,
         slidesToShow: 1,
         slidesToScroll: 1,
