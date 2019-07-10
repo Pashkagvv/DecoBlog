@@ -49,7 +49,7 @@ function initBlock() {
             {
                 breakpoint: 992,
                 settings: {
-                    arrows: false,
+
                     dots: false
                 }
             },
@@ -57,7 +57,8 @@ function initBlock() {
 		        breakpoint: 575,
 		        settings: {
 			        slidesToShow: 1,
-			        slidesToScroll: 1
+			        slidesToScroll: 1,
+			        arrows: false,
 		        }
 	        }
         ]

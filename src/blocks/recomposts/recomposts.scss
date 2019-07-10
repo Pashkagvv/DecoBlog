@@ -66,6 +66,9 @@
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  @media (max-width: 575px){
+    text-align: center;
+  }
 }
   &__subtitle{
     color: $color-h3;
