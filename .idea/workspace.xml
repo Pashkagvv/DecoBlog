@@ -33,11 +33,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/top/banner/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/banner/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/data/globals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/data/globals.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/_ICH0724.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/_ICH0724.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/data/pages/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/data/pages/index.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="792">
               <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
@@ -67,8 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2920">
+            <state relative-caret-position="15030">
               <caret line="835" column="25" selection-start-line="835" selection-end-line="835" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -76,17 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369">
+            <state relative-caret-position="18">
               <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="286" column="8" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -94,26 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pug/data/globals.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="306">
               <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/blocks/top/banner/banner.js">
+        <entry file="file://$PROJECT_DIR$/src/pug/data/pages/index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="59" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/content/content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="162">
+              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -143,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/blocks/menu/menu.pug" />
         <option value="$PROJECT_DIR$/src/blocks/menu/menu.scss" />
         <option value="$PROJECT_DIR$/src/blocks/contactform/contactform.pug" />
-        <option value="$PROJECT_DIR$/src/pug/data/pages/index.json" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.pug" />
         <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.pug" />
         <option value="$PROJECT_DIR$/src/pug/pages/index.pug" />
@@ -161,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/blocks/sidebar/sidebar.scss" />
         <option value="$PROJECT_DIR$/src/blocks/footer/footer.pug" />
         <option value="$PROJECT_DIR$/src/sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/blocks/footer/footer.scss" />
         <option value="$PROJECT_DIR$/src/blocks/top/header/header.scss" />
         <option value="$PROJECT_DIR$/src/blocks/recomposts/recomposts.pug" />
         <option value="$PROJECT_DIR$/src/pug/pages/detailPage.pug" />
@@ -185,6 +172,8 @@
         <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
         <option value="$PROJECT_DIR$/src/pug/data/globals.json" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.js" />
+        <option value="$PROJECT_DIR$/src/blocks/footer/footer.scss" />
+        <option value="$PROJECT_DIR$/src/pug/data/pages/index.json" />
       </list>
     </option>
   </component>
@@ -226,15 +215,7 @@
               <item name="MyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -248,6 +229,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pug" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,12 +342,13 @@
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
       <workItem from="1562484385358" duration="56667000" />
-      <workItem from="1562661940187" duration="61220000" />
+      <workItem from="1562661940187" duration="61609000" />
+      <workItem from="1562793006426" duration="279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377231000" />
+    <option name="totallyTimeSpent" value="377899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,8 +380,8 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50223213" side_tool="true" weight="0.4051282" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.2957265" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5037202" side_tool="true" visible="true" weight="0.2957265" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49627978" visible="true" weight="0.2957265" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,13 +394,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pug/data/pages/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/top/banner/banner.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -540,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/betheone/betheone.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -660,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2920">
-          <caret line="835" column="25" selection-start-line="835" selection-end-line="835" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -695,20 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/content/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -723,17 +678,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/data/globals.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/top/banner/banner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="59" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15030">
+          <caret line="835" column="25" selection-start-line="835" selection-end-line="835" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/data/globals.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/data/pages/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
         </state>
       </provider>
     </entry>
