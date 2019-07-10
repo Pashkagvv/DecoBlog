@@ -34,6 +34,7 @@
  */
 function initBlock() {
     // TODO: add code here
+
     return true;
 }
 

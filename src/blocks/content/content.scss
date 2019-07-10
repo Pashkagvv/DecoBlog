@@ -14,6 +14,13 @@
   // Pseudo-classes and pseudo-elements
   // TODO: add code
 
+  &__socialLinks i:hover, &__comment:hover, &__links:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    color: #494f54;
+  }
+
+
   // Nested selectors
   // TODO: add code
   #player {
@@ -107,7 +114,8 @@
     font-weight: 500;
     letter-spacing: 0.2em;
     margin-bottom: 45px;
-    margin-top: 34px
+    margin-top: 34px;
+    transition: all 0.3s ease;
   }
 
   &__linkContent {
@@ -146,11 +154,12 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-
+    transition: all 0.3s ease;
     i {
 
       color: $color-h3;
       font-size: 18px;
+
     }
   }
 
@@ -159,6 +168,9 @@
     color: $color-description;
     font-size: 14px;
     margin: 0 3px;
+    i{
+      transition: all 0.3s ease;
+    }
   }
 
 
@@ -225,6 +237,7 @@
   .grid-item {
     //padding: 0;
     margin: 15px 0;
+
     //width: 100%;
   }
 
@@ -313,4 +326,8 @@
 
   // Bem modifiers
   // TODO: add code
-}
+
+
+  }
+
+

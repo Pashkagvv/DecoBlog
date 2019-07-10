@@ -63,6 +63,7 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
     "create-youtube-player": "^2.0.1",
     "google-maps": "^3.3.0",

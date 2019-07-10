@@ -36,6 +36,11 @@ function initBlock() {
     // TODO: add code here
 
 
+
+
+
+
+
     const $container = $('#masonry-grid');
 
     $container.imagesLoaded(() => {

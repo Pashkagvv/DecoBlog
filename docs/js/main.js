@@ -1335,6 +1335,48 @@ module.exports = YouTubePlayer
 
 /***/ }),
 
+/***/ "./src/blocks/aboutme/aboutme.js":
+/*!***************************************!*\
+  !*** ./src/blocks/aboutme/aboutme.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/**
+ * @file Implementation of the aboutme block
+ */
+// -------------------------- BEGIN MODULE VARIABLES --------------------------
+// TODO: add code here
+// --------------------------- END MODULE VARIABLES ---------------------------
+// -------------------------- BEGIN UTILITY FUNCTIONS -------------------------
+// TODO: add code here
+// --------------------------- END UTILITY FUNCTIONS --------------------------
+// ----------------------------- BEGIN DOM METHODS ----------------------------
+// TODO: add code here
+// ------------------------------ END DOM METHODS -----------------------------
+// --------------------------- BEGIN EVENT HANDLERS ---------------------------
+// TODO: add code here
+// ---------------------------- END EVENT HANDLERS ----------------------------
+// --------------------------- BEGIN PUBLIC METHODS ---------------------------
+
+/**
+ * Initialize the aboutme block.
+ * @return true if the block is present on the page, false otherwise
+ */
+function initBlock() {
+  // TODO: add code here
+  return true;
+} // ---------------------------- END PUBLIC METHODS ----------------------------
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  initBlock: initBlock
+});
+
+/***/ }),
+
 /***/ "./src/blocks/common/page/page.js":
 /*!****************************************!*\
   !*** ./src/blocks/common/page/page.js ***!
@@ -1349,9 +1391,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blocks_top_banner_banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../blocks/top/banner/banner */ "./src/blocks/top/banner/banner.js");
 /* harmony import */ var _blocks_recomposts_recomposts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../blocks/recomposts/recomposts */ "./src/blocks/recomposts/recomposts.js");
 /* harmony import */ var _blocks_map_map__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../blocks/map/map */ "./src/blocks/map/map.js");
+/* harmony import */ var _blocks_aboutme_aboutme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../blocks/aboutme/aboutme */ "./src/blocks/aboutme/aboutme.js");
 /**
  * @file Implementation of the page block
  */
+
 
 
 
@@ -1431,7 +1475,8 @@ function initBlock() {
   _blocks_content_content__WEBPACK_IMPORTED_MODULE_1__["default"].initBlock();
   _blocks_top_banner_banner__WEBPACK_IMPORTED_MODULE_2__["default"].initBlock();
   _blocks_recomposts_recomposts__WEBPACK_IMPORTED_MODULE_3__["default"].initBlock();
-  _blocks_map_map__WEBPACK_IMPORTED_MODULE_4__["default"].initBlock(); // Process the initial window size and scroll position
+  _blocks_map_map__WEBPACK_IMPORTED_MODULE_4__["default"].initBlock();
+  _blocks_aboutme_aboutme__WEBPACK_IMPORTED_MODULE_5__["default"].initBlock(); // Process the initial window size and scroll position
 
   handleWindowResize();
   handleWindowScroll();

@@ -7,6 +7,7 @@ import content from '../../../blocks/content/content';
 import banner from '../../../blocks/top/banner/banner';
 import recomposts from '../../../blocks/recomposts/recomposts';
 import map from '../../../blocks/map/map';
+import aboutme from '../../../blocks/aboutme/aboutme';
 
 
 
@@ -93,6 +94,7 @@ function initBlock() {
     banner.initBlock();
     recomposts.initBlock();
     map.initBlock();
+    aboutme.initBlock();
 
     // Process the initial window size and scroll position
     handleWindowResize();

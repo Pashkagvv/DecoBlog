@@ -11,6 +11,7 @@ import '@fortawesome/fontawesome-free';
 import 'google-maps';
 
 
+
 // Expose libraries to global Window object
 window.$ = window.jQuery = jQuery;
 jQueryBridget('masonry', Masonry, $);

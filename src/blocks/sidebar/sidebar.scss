@@ -39,7 +39,10 @@
     margin-bottom: 15px;
 
   }
-
+  &__img{
+    display: block;
+    margin: 0 auto;
+  }
   &__ListTitle, &__ListPoint{
     display: inline-block;
     color: $color-h3;

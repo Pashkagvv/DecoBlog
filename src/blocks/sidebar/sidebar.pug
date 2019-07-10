@@ -8,7 +8,7 @@ mixin sidebar(data = {})
     .sidebar&attributes(attributes)
         .sidebar__Cower
 
-            img(src= data.Img)
+            img.sidebar__img(src= data.Img)
             h2.sidebar__Title= data.Title2
             ul
                 each item in data.List2
