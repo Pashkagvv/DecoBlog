@@ -20,6 +20,9 @@ padding-left: 20px;
     // TODO: add code
 &__img{
   width: 100%;
+  @media (max-width: 575px){
+    display: none;
+  }
 }
     // Bem modifiers
     // TODO: add code

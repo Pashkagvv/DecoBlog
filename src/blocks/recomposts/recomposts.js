@@ -53,6 +53,13 @@ function initBlock() {
                     dots: false
                 }
             },
+	        {
+		        breakpoint: 575,
+		        settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+		        }
+	        }
         ]
     });
     return true;

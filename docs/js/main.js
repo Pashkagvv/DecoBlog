@@ -1682,6 +1682,12 @@ function initBlock() {
         arrows: false,
         dots: false
       }
+    }, {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }]
   });
   return true;

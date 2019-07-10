@@ -20034,6 +20034,13 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 400;
 }
 
+@media (max-width: 575px) {
+  .betheone__socialLinks {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
 .betheone__footerLike {
   margin-left: 20px;
 }
@@ -20043,7 +20050,7 @@ a.text-dark:hover, a.text-dark:focus {
   border-top: 1px solid #d7d7d7;
   width: 100%;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 20px;
   background: #fff;
 }
 
@@ -20194,6 +20201,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .sidebargallery__img {
   width: 100%;
+}
+
+@media (max-width: 575px) {
+  .sidebargallery__img {
+    display: none;
+  }
 }
 
 /**
