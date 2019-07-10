@@ -19365,6 +19365,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .content .grid-item {
   margin: 15px 0;
+  padding: 10px;
 }
 
 .content .grid-sizer {
@@ -19882,6 +19883,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
+.betheone__socialLinks i:hover, .betheone__footerComment:hover, .betheone__footerLike:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+  color: #494f54;
+}
+
 .betheone .icon {
   fill: #fff;
   display: block;
@@ -20053,6 +20060,10 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
 }
 
+.allpost__link:hover {
+  color: #e3e3e5;
+}
+
 .allpost__wrapper {
   display: flex;
   background-color: #fff;
@@ -20099,6 +20110,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  transition: all 0.4s ease;
 }
 
 .allpost__post {

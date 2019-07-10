@@ -15,6 +15,11 @@ padding-top: 20px;
     text-decoration: none;
     color: $color-white;
   }
+  &__socialLinks i:hover, &__footerComment:hover,&__footerLike:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    color: #494f54;
+  }
 
     // Nested selectors
     // TODO: add code
@@ -162,6 +167,11 @@ padding-top: 20px;
     color: $color-description;
     font-size: 18px;
     font-weight: 400;
+    @media (max-width: 575px){
+
+      margin-right: 5px;
+      margin-left: 5px;
+    }
   }
 
   &__footerLike{

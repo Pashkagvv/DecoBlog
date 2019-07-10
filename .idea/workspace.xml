@@ -34,15 +34,9 @@
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/detailPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/detailPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/allpost/allpost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/allpost/allpost.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/betheone/betheone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/betheone/betheone.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/recomposts/recomposts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/recomposts/recomposts.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/recomposts/recomposts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/recomposts/recomposts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/top/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/detailPage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/detailPage.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="351">
               <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="23" />
             </state>
           </provider>
@@ -94,20 +88,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/allpost/allpost.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+            <state relative-caret-position="162">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/blocks/betheone/betheone.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="172" column="20" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/betheone/betheone.scss">
+        <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-2232">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -160,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/blocks/content/content.js" />
         <option value="$PROJECT_DIR$/src/blocks/aboutme/aboutme.pug" />
         <option value="$PROJECT_DIR$/src/blocks/aboutme/aboutme.js" />
-        <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.scss" />
         <option value="$PROJECT_DIR$/src/blocks/newslatter/newslatter.scss" />
         <option value="$PROJECT_DIR$/src/blocks/searchform/searchform.scss" />
@@ -177,8 +179,9 @@
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/src/blocks/recomposts/recomposts.scss" />
         <option value="$PROJECT_DIR$/src/pug/pages/detailPage.pug" />
-        <option value="$PROJECT_DIR$/src/blocks/betheone/betheone.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
         <option value="$PROJECT_DIR$/src/blocks/allpost/allpost.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/betheone/betheone.scss" />
       </list>
     </option>
   </component>
@@ -221,6 +224,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="betheone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -366,12 +383,12 @@
       <workItem from="1562417043399" duration="31956000" />
       <workItem from="1562483117742" duration="646000" />
       <workItem from="1562484385358" duration="56667000" />
-      <workItem from="1562661940187" duration="44273000" />
+      <workItem from="1562661940187" duration="46721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360284000" />
+    <option name="totallyTimeSpent" value="362732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +402,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.50502515" side_tool="true" weight="0.26928896" />
       <window_info id="npm" order="3" sideWeight="0.50511944" side_tool="true" weight="0.26701966" />
@@ -404,7 +421,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50223213" side_tool="true" weight="0.4051282" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.2957265" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49776787" visible="true" weight="0.2957265" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -568,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="171" column="32" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -665,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/betheone/betheone.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -717,11 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/allpost/allpost.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -729,24 +727,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/top/header/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="23" />
+        <state relative-caret-position="297">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/betheone/betheone.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/allpost/allpost.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2232">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/allpost/allpost.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+        <state relative-caret-position="162">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/betheone/betheone.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="172" column="20" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
         </state>
       </provider>
     </entry>

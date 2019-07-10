@@ -15,6 +15,11 @@
     background: $color-hover-backgraund;
     text-decoration: none;
   }
+  &__link:hover{
+    //text-decoration: none;
+    color: $color-hover-backgraund;
+  }
+
     // Nested selectors
     // TODO: add code
 
@@ -60,6 +65,7 @@
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+    transition: all 0.4s ease;
   }
   &__post{
     margin-top: 30px;
