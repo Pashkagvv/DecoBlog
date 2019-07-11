@@ -19154,6 +19154,11 @@ a.text-dark:hover, a.text-dark:focus {
   color: #494f54;
 }
 
+.content__linkContent:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+
 .content #player {
   width: 100%;
 }
@@ -19249,6 +19254,14 @@ a.text-dark:hover, a.text-dark:focus {
 .content__linkContent {
   color: #fff;
   word-break: break-word;
+  display: block;
+  font-family: "Hind", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  text-decoration: underline;
+  padding-top: 25px;
+  color: #fff;
   font-family: "Hind", sans-serif;
   font-size: 17px;
   font-weight: 300;

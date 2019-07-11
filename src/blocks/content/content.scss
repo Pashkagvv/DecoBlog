@@ -14,12 +14,15 @@
   // Pseudo-classes and pseudo-elements
   // TODO: add code
 
-  &__socialLinks i:hover, &__comment:hover, &__links:hover{
+  &__socialLinks i:hover, &__comment:hover, &__links:hover {
     text-decoration: none;
     transform: scale(1.1);
     color: #494f54;
   }
-
+&__linkContent:hover{
+  color:$color-white;
+  opacity: 0.5;
+}
 
   // Nested selectors
   // TODO: add code
@@ -123,7 +126,15 @@
   &__linkContent {
     color: $color-white;
     word-break: break-word;
+    display: block;
+    font-family: $font-family-Hind;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    text-decoration: underline;
+    padding-top: 25px;
 
+    color:$color-white;
     font-family: $font-family-Hind;
     font-size: 17px;
     font-weight: 300;
@@ -157,6 +168,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     transition: all 0.3s ease;
+
     i {
 
       color: $color-h3;
@@ -170,7 +182,8 @@
     color: $color-description;
     font-size: 14px;
     margin: 0 3px;
-    i{
+
+    i {
       transition: all 0.3s ease;
     }
   }
@@ -254,10 +267,11 @@
     display: block;
     margin: 0 auto;
   }
-&__wrapper{
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
+  &__wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
   &__imgCower {
     background: $color-white;
@@ -338,7 +352,8 @@
     width: 100%;
 
   }
-  &__imgnotext{
+
+  &__imgnotext {
     //margin-top: 20px;
   }
 
@@ -346,6 +361,6 @@
   // TODO: add code
 
 
-  }
+}
 
 
