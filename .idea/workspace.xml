@@ -32,7 +32,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/data/pages/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/data/pages/index.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="9">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
@@ -113,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pug/data/pages/index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="54">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -185,17 +187,17 @@
         <option value="$PROJECT_DIR$/src/blocks/content/content.js" />
         <option value="$PROJECT_DIR$/src/blocks/top/banner/banner.js" />
         <option value="$PROJECT_DIR$/src/blocks/footer/footer.scss" />
-        <option value="$PROJECT_DIR$/src/pug/data/pages/index.json" />
         <option value="$PROJECT_DIR$/src/pug/data/globals.json" />
         <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
         <option value="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" />
+        <option value="$PROJECT_DIR$/src/pug/data/pages/index.json" />
       </list>
     </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="KLHfGiuP" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -359,12 +361,12 @@
       <workItem from="1562484385358" duration="56667000" />
       <workItem from="1562661940187" duration="61609000" />
       <workItem from="1562793006426" duration="420000" />
-      <workItem from="1562817067349" duration="3549000" />
+      <workItem from="1562817067349" duration="5242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381589000" />
+    <option name="totallyTimeSpent" value="383282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,10 +377,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25688073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.50502515" side_tool="true" weight="0.26928896" />
       <window_info id="npm" order="3" sideWeight="0.50511944" side_tool="true" weight="0.26701966" />
@@ -397,7 +399,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50446427" side_tool="true" weight="0.2957265" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.4955357" visible="true" weight="0.2957265" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.4955357" visible="true" weight="0.32703215" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -708,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/data/pages/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/content/content.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -738,8 +733,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="9">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/data/pages/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
