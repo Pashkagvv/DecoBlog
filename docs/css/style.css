@@ -20218,14 +20218,14 @@ a.text-dark:hover, a.text-dark:focus {
   background: #fff;
 }
 
-.sidebargallery__img {
-  width: 100%;
-}
-
 @media (max-width: 575px) {
-  .sidebargallery__img {
+  .sidebargallery {
     display: none;
   }
+}
+
+.sidebargallery__img {
+  width: 100%;
 }
 
 /**

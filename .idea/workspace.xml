@@ -32,27 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/HomePage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/Rectangle43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/bodybuilder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/ellipse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/gridbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/imgbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/redskirt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/workout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/HomePage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Rectangle43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bodybuilder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/gridbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/imgbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/redskirt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/workout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="-5931">
               <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -179,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/blocks/recomposts/recomposts.pug" />
         <option value="$PROJECT_DIR$/src/pug/pages/detailPage.pug" />
         <option value="$PROJECT_DIR$/src/blocks/allpost/allpost.scss" />
-        <option value="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" />
         <option value="$PROJECT_DIR$/src/blocks/recomposts/recomposts.js" />
         <option value="$PROJECT_DIR$/src/blocks/recomposts/recomposts.scss" />
         <option value="$PROJECT_DIR$/src/blocks/betheone/betheone.scss" />
@@ -200,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/pug/data/pages/index.json" />
         <option value="$PROJECT_DIR$/src/pug/data/globals.json" />
         <option value="$PROJECT_DIR$/src/blocks/content/content.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss" />
       </list>
     </option>
   </component>
@@ -241,7 +230,7 @@
               <item name="MyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="sidebargallery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -370,12 +359,12 @@
       <workItem from="1562484385358" duration="56667000" />
       <workItem from="1562661940187" duration="61609000" />
       <workItem from="1562793006426" duration="420000" />
-      <workItem from="1562817067349" duration="2979000" />
+      <workItem from="1562817067349" duration="3549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381019000" />
+    <option name="totallyTimeSpent" value="381589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +378,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.50502515" side_tool="true" weight="0.26928896" />
       <window_info id="npm" order="3" sideWeight="0.50511944" side_tool="true" weight="0.26701966" />
@@ -408,7 +397,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50446427" side_tool="true" weight="0.2957265" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.4955357" visible="true" weight="0.2957265" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.4955357" visible="true" weight="0.2957265" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -586,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/recomposts/recomposts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -749,8 +731,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/content/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="-5931">
           <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/sidebargallery/sidebargallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
