@@ -63,13 +63,13 @@
   "footer": [
     {
       "title": "About Blog",
-      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
+      "description": "Drew is another Arizona native. Drew has been traveling the world since he left college and has made a full-time career working for himself. ",
       "img": "./img/NathaliyaJhone.jpg"
     },
     {
       "title": "latest tweets",
-      "subtitle": "  @Twitter@magicalrebekah",
-      "description": "Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. ",
+      "subtitle": " <i class=\"fab fa-twitter\"></i> @Twitter@magicalrebekah",
+      "description": "The reason why front seats  are expensive. You never know what will fall on your laps ",
       "description2": "Developer Advocate hav a great work this knows the very well is about things."
     },
     {
@@ -149,7 +149,7 @@
   "map": {
     "title": "Contact information",
     "description": "In case you some aquestions popped in your’s mind, FeIn case you some aquestions popped in your’el email or even visit us. ",
-    "adress": "<i class=\"fas fa-home\"></i> Address: 123 Street Name, City Name, United States.",
+    "adress": "<i class=\"fas fa-home\"></i> Address: 123  Sesame Street,  New York, United States.",
     "email": "<i class=\"far fa-envelope\"></i> Email: info@lifestyle.com",
     "site": "<i class=\"fas fa-globe-europe\"></i> www.lifestyle.com"
   },

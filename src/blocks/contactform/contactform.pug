@@ -6,7 +6,7 @@
 
 mixin contactform(data = {})
     .contactform&attributes(attributes)
-        form.contactform__form
+        form.contactform__form(action="javascript:void(0)")
             input.contactform__name(type="text" placeholder=  data.name required)
             input.contactform__email(type="email" placeholder= data.email required)
             input.contactform__website(type="url" placeholder= data.website required)

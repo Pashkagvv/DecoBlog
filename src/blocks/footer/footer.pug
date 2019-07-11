@@ -17,10 +17,10 @@ mixin footer(data = {})
                         if (item.title == 'latest tweets')
                             h3.footer__title= item.title
                             a.footer__tweeterLink(href="#")
-                                p.footer__subtitle= item.subtitle
+                                p.footer__subtitle!= item.subtitle
                                 p.footer__description= item.description
                             a.footer__tweeterLink(href="#")
-                                p.footer__subtitle= item.subtitle
+                                p.footer__subtitle!= item.subtitle
                                 p.footer__description2= item.description2
                         if (item.title == 'Follow me instagram')
                             h3.footer__title= item.title

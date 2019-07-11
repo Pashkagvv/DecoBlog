@@ -1592,8 +1592,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  * @return true if the block is present on the page, false otherwise
  */
 var map, infoWindow, marker;
-var lat = -7.930722;
-var lng = 112.637741;
+var lat = 40.7713414;
+var lng = 73.9842271;
 
 function initBlock() {
   // TODO: add code here

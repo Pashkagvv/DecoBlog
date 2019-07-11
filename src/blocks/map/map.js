@@ -33,8 +33,8 @@
  * @return true if the block is present on the page, false otherwise
  */
 let map, infoWindow, marker;
-const lat = -7.930722;
-const lng = 112.637741;
+const lat = 40.7713414;
+const lng = 73.9842271;
 
 function initBlock() {
     // TODO: add code here
