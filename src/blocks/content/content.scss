@@ -123,6 +123,11 @@
     transition: all 0.3s ease;
   }
 
+  &__audioImg{
+    display: block;
+    margin: 0 auto;
+  }
+
   &__linkContent {
     color: $color-white;
     word-break: break-word;

@@ -10,7 +10,9 @@
 
     // Pseudo-classes and pseudo-elements
     // TODO: add code
-
+  .next-arrow:hover, .prev-arrow:hover{
+    opacity: 0.7;
+  }
     // Nested selectors
     // TODO: add code
   .slick-slide{

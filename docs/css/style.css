@@ -19251,6 +19251,11 @@ a.text-dark:hover, a.text-dark:focus {
   transition: all 0.3s ease;
 }
 
+.content__audioImg {
+  display: block;
+  margin: 0 auto;
+}
+
 .content__linkContent {
   color: #fff;
   word-break: break-word;
@@ -20096,6 +20101,13 @@ a.text-dark:hover, a.text-dark:focus {
   border: 1px solid rgba(221, 221, 221, 0.15);
   box-shadow: 0 0 0 rgba(213, 213, 213, 0.75);
   margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .allpost__wrapper {
+    margin-bottom: 20px;
+  }
 }
 
 .allpost__topCower {
@@ -20231,6 +20243,10 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Styles for the recomposts block.
  */
+.recomposts .next-arrow:hover, .recomposts .prev-arrow:hover {
+  opacity: 0.7;
+}
+
 .recomposts .slick-slide {
   margin: 0 15px;
 }

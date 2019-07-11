@@ -31,6 +31,10 @@
     border: 1px solid $color-input-border;
     box-shadow: 0 0 0 $color-icon-shadow;
     margin-top: 45px;
+    margin-bottom: 40px;
+    @media (max-width: 767px){
+      margin-bottom: 20px;
+    }
   }
 &__topCower{
   width: 100%;

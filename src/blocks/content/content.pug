@@ -90,7 +90,10 @@ mixin content(data = {})
                                         .content__subtitle= item.subtitle
                                         .content__title= item.title
                                         .content__date= item.date
-                                        audio.content__audioPLayer(controls)
+                                        img.content__audioImg(src="https://static.hotmixradio" +
+".fr/wp-content/themes/remix-child/img/hotmix_logo.png")
+                                        audio.content__audioPLayer(src="https://streamingp.shoutcast" +
+                                        ".com/hotmixradio-metal-128.mp3?userid=dc1686a3-84b0-4960-a0a5-193a638cfa41&userref=dc1686a3-84b0-4960-a0a5-193a638cfa41&tsuid=dc1686a3-84b0-4960-a0a5-193a638cfa41&dmpenabled=1&newsession=1562858849530" controls)
                             if(item.type == 'img')
                                 .grid-item.col-sm-12.col-md-6.col-lg-4
                                     .content__imgCower
