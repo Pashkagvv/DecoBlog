@@ -1594,7 +1594,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 function initBlock() {
   // TODO: add code here
-  $('.footer__upbutton').on('click', '#header', function () {
+  $('.footer__upbutton').on('click', 'a', function () {
     // полчаем смещение елемента с id якоря
     var offset = $($(this).attr('href')).offset().top;
     $('html, body').stop().animate({
