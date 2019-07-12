@@ -19644,7 +19644,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 15px;
 }
 
-.footer__imgGaleryLink:hover {
+.footer__upbutton:hover, .footer__imgGaleryLink:hover {
   transform: scale(0.9);
   opacity: 0.7;
 }
@@ -19728,6 +19728,7 @@ a.text-dark:hover, a.text-dark:focus {
   right: 20px;
   bottom: 20px;
   width: 30px;
+  transition: all 0.3s ease;
 }
 
 /**

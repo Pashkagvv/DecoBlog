@@ -34,13 +34,13 @@
  */
 function initBlock() {
     // TODO: add code here
-	$('.footer__upbutton').on('click', '#header', function () {
-		// полчаем смещение елемента с id якоря
-		let offset = $($(this).attr('href')).offset().top;
-		$('html, body').stop().animate({scrollTop: offset}, 1000, 'swing', function () {
+    $('.footer__upbutton').on('click', '#header', function () {
+        // полчаем смещение елемента с id якоря
+        const offset = $($(this).attr('href')).offset().top;
+        $('html, body').stop().animate({scrollTop: offset}, 1000, 'swing', function () {
 
-		});
-	});
+        });
+    });
     return true;
 }
 
