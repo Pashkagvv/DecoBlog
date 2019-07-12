@@ -2,6 +2,7 @@
  * Styles for the footer block.
  */
 .footer {
+  position: relative;
   background: $color-header-bg;
   padding-top: 15px;
   // Selector styles
@@ -86,6 +87,13 @@
   }
   &__tweeterLink{
     transition: all 0.4s ease;
+  }
+
+  &__upbutton{
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 30px;
   }
 
   // Bem modifiers

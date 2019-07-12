@@ -58,6 +58,7 @@
         "date": "Jan. 16 2015",
         "like": "Like 29"
       }
+
     ]
   },
   "footer": [
@@ -88,6 +89,7 @@
       "autorJohn": "From Jhon Doe :",
       "commentJohn": "Developer Advocate @heyval isaiyou know the very well is talking about things."
     }
+
   ],
   "sidebargallery": {
     "img": "./img/Layer94.png"

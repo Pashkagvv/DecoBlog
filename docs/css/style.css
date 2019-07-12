@@ -18778,6 +18778,8 @@ a.text-dark:hover, a.text-dark:focus {
  */
 .header {
   background: #212429;
+  position: -webkit-sticky;
+  position: sticky;
   left: 0;
   top: 0;
   right: 0;
@@ -19636,6 +19638,7 @@ a.text-dark:hover, a.text-dark:focus {
  * Styles for the footer block.
  */
 .footer {
+  position: relative;
   background: #212429;
   padding-top: 15px;
 }
@@ -19717,6 +19720,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer__tweeterLink {
   transition: all 0.4s ease;
+}
+
+.footer__upbutton {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  width: 30px;
 }
 
 /**
