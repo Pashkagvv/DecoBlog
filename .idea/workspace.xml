@@ -32,22 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8340d4-75c0-4016-b7c7-9c4f1c0544c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/detailPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/detailPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/common/page/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/common/page/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/footer/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/top/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/header/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/top/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/top/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/data/globals.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/data/globals.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -382,12 +367,12 @@
       <workItem from="1562793006426" duration="420000" />
       <workItem from="1562817067349" duration="5485000" />
       <workItem from="1562846451424" duration="8536000" />
-      <workItem from="1562919229095" duration="3302000" />
+      <workItem from="1562919229095" duration="3483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395363000" />
+    <option name="totallyTimeSpent" value="395544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +386,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.50502515" side_tool="true" weight="0.26928896" />
       <window_info id="npm" order="3" sideWeight="0.50511944" side_tool="true" weight="0.26701966" />
@@ -420,7 +405,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" weight="0.32935154" />
       <window_info anchor="bottom" id="TeamCity" order="12" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50446427" side_tool="true" weight="0.2957265" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.4955357" visible="true" weight="0.2957265" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.4955357" visible="true" weight="0.2957265" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -762,7 +747,7 @@
     <entry file="file://$PROJECT_DIR$/src/blocks/footer/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
         </state>
       </provider>
     </entry>
